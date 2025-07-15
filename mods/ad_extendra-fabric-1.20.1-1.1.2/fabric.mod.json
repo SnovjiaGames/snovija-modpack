@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "ad_extendra",
+  "version": "1.1.2",
+  "name": "Да зорак+",
+  "description": "Новыя планеты, галактыкі і многае іншае!",
+  "authors": [
+    "Snovija Games"
+  ],
+  "contributors": [
+    "Damijan Dzijanski"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/ad_extendra-continuation",
+    "sources": "https://github.com/DRD2k8/ad_extendra",
+    "issues": "https://github.com/DRD2k8/ad_extendra/issues"
+  },
+  "license": "MIT",
+  "icon": "logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.drd.ad_extendra.fabric.AdExtendraFabric"
+    ],
+    "client": [
+      "com.drd.ad_extendra.client.fabric.AdExtendraClientFabric"
+    ]
+  },
+  "mixins": [
+    "ad_extendra-common.mixins.json",
+    "ad_extendra.mixins.json"
+  ],
+  "depends": {
+    "fabric-api": "*",
+    "minecraft": ">=1.20.1",
+    "java": ">=17",
+    "ad_astra": ">=0.15.20",
+    "botarium": ">=2.3.0",
+    "resourcefullib": ">=2.1.23",
+    "resourcefulconfig": ">=2.1.0"
+  }
+}
