@@ -1,1 +1,2 @@
-# snovija-modpack
+# Snovija Modpack
+**Модпак Сновія** — гэта першы беларускамоўны пак мадыфікацый для Minecraft. Мы сабралі і цалкам пераклалі на мову шмат якія папулярныя моды, такія як _Ad Astra_, _Create_, _BetterEnd_, _Bioms O'Plenty_ і шмат хто іншы.
