@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "ad_astra",
+  "version": "0.1.1",
+  "name": "Ad Astra",
+  "description": "Скарайце касмічныя далечы па-беларуску!",
+  "authors": [
+    "Damijan Dzijanski"
+  ],
+  "contributors": [
+    "Alex Nijjar",
+    "CodexAdrian",
+    "Facu",
+    "Fizz",
+    "MsRandom",
+    "ThatGravyBoat"
+  ],
+  "contact": {
+    "website": "https://modrinth.com/mod/ad-astra",
+    "repo": "https://github.com/terrarium-earth/ad-astra",
+    "issues": "https://github.com/terrarium-earth/ad-astra/issues"
+  },
+  "license": "Terrarium Licence",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "earth.terrarium.adastra.fabric.AdAstraFabric::init",
+      "earth.terrarium.adastra.AdAstra::postInit"
+    ],
+    "client": [
+      "earth.terrarium.adastra.client.fabric.AdAstraClientFabric::init"
+    ],
+    "rei_client": [
+      "earth.terrarium.adastra.common.compat.rei.AdAstraReiPlugin"
+    ],
+    "jei_mod_plugin": [
+      "earth.terrarium.adastra.common.compat.jei.AdAstraJeiPlugin"
+    ],
+    "modmenu": [
+      "earth.terrarium.adastra.common.config.fabric.ModMenuConfig"
+    ]
+  },
+  "mixins": [
+    "adastra-common.mixins.json",
+    "adastra.mixins.json"
+  ],
+  "depends": {
+    "fabric-api": "*",
+    "minecraft": "\u003e\u003d1.20.1",
+    "java": "\u003e\u003d17",
+    "resourcefullib": "\u003e\u003d2.1.23",
+    "resourcefulconfig": "\u003e\u003d2.1.0",
+    "botarium": "\u003e\u003d2.3.0"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/jlayer-1.0.1.jar"
+    }
+  ]
+}
