@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "id": "alloy_forgery",
+  "version": "2.1.2+1.20",
+  "name": "Падробка сплаву",
+  "description": "Наладжвальныя, кіраваныя дадзенымі кузні для сплаваў для ўсіх вашых патрэб у плаўленні.",
+  "authors": [
+    "glisco"
+  ],
+  "contributors": [
+    "Noaaan",
+    "LordDeatHunter",
+    "Blodhgarm"
+  ],
+  "contact": {
+    "sources": "https://github.com/LordDeatHunter/Alloy-Forgery",
+    "issues": "https://github.com/LordDeatHunter/Alloy-Forgery/issues"
+  },
+  "accessWidener": "alloy_forgery.accesswidener",
+  "license": "MIT",
+  "icon": "assets/alloy_forgery/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "wraith.alloyforgery.client.AlloyForgeryClient"
+    ],
+    "main": [
+      "wraith.alloyforgery.AlloyForgery"
+    ],
+    "fabric-datagen": [
+      "wraith.alloyforgery.data.AlloyForgeryData"
+    ],
+    "rei_client": [
+      "wraith.alloyforgery.compat.rei.AlloyForgeryClientPlugin"
+    ],
+    "rei_common": [
+      "wraith.alloyforgery.compat.rei.AlloyForgeryCommonPlugin"
+    ],
+    "emi": [
+      "wraith.alloyforgery.compat.emi.AlloyForgeryEmiPlugin"
+    ]
+  },
+  "mixins": [
+    "alloy-forgery.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "\u003e\u003d0.10",
+    "fabric": "*",
+    "minecraft": "\u003e\u003d1.20",
+    "owo": "\u003e\u003d0.11.0"
+  },
+  "suggests": {
+    "craft-this-from-that": "*",
+    "mythicmetals": "*"
+  },
+  "recommends": {
+    "roughlyenoughitems": "\u003e\u003d12.0.0"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "http://discord.gg/Pa5wDVm8Xv"
+      }
+    },
+    "loom:injected_interfaces": {
+      "net/minecraft/class_1860": [
+        "wraith/alloyforgery/pond/RecipeTagHelper"
+      ]
+    }
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/owo-sentinel-0.11.1+1.20.jar"
+    }
+  ]
+}
