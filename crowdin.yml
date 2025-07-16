@@ -9,3 +9,5 @@ files:
     translation: /mods/alloy-forgery-2.1.2+1.20/assets/alloy_forgery/lang/%locale%.json
   - source: /mods/antique-atlas-2.11.2+1.20/assets/antique_atlas/lang/en_us.json
     translation: /mods/antique-atlas-2.11.2+1.20/assets/antique_atlas/lang/%locale%.json
+  - source: /mods/better-end-4.0.11/assets/betterend/lang/en_us.json
+    translation: /mods/better-end-4.0.11/assets/betterend/lang/%locale%.json
