@@ -1,5 +1,5 @@
 {
-  "block.ad_astra.aeronos_mushroom": "Аэронасавы грыбок (старэйшы)",
-  "block.ad_astra.strophar_mushroom": "Строфараў грыбок (старэйшы)",
-  "info.ad_astra.solar_panel": "Вытворыць энергію ад сонца ўдзень. Зверні ўвагу, што колькасць энергіі залежыць ад планеты."
+  "block.ad_astra.aeronos_mushroom": "Aeronos Mushroom (Old)",
+  "block.ad_astra.strophar_mushroom": "Strophar Mushroom (Old)",
+  "info.ad_astra.solar_panel": "Generates energy from the sun during the day. Note that the energy generated is dependent on the planet."
 }
