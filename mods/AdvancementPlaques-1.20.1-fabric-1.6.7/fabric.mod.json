@@ -1,0 +1,55 @@
+{
+	"schemaVersion": 1,
+	"id": "advancementplaques",
+	"version": "1.6.7",
+
+	"name": "Мудрагелістыя дасягненні",
+	"description": "Замяняе стандартныя паведы за прасоўванне на мудрагелістыя таблічкі.",
+	"authors": [ "Grend" ],
+	"contact": {
+		"homepage": "https://anthonyhilyard.com/",
+		"sources": "https://github.com/AHilyard/AdvancementPlaques",
+		"discord": "https://discord.gg/S5NQjbXPnb"
+	},
+
+	"license": "CC BY-NC-ND 4.0",
+	"icon": "icon.png",
+
+	"environment": "client",
+
+	"entrypoints": {
+		"client": [
+			"com.anthonyhilyard.advancementplaques.Loader"
+		]
+	},
+	"accessWidener": "advancementplaques.accesswidener",
+
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"fabric": "*",
+		"minecraft": "1.20.1",
+		"java": ">=17",
+		"forgeconfigapiport": ">=8.0",
+		"iceberg": ">=1.1.18"
+	},
+	"suggests": {
+		"waila": "*",
+		"jade": ">=11.8.0",
+		"toastmanager": "*"
+	},
+	"conflicts": {
+		"canvas": "*"
+	},
+	"custom": {
+		"modupdater": {
+			"strategy": "curseforge",
+			"projectID": 514882,
+			"strict": false
+		},
+		"modmenu": {
+			"links": {
+			"modmenu.discord": "https://discord.gg/S5NQjbXPnb"
+			}
+		}
+	}
+}
