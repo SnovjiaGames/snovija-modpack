@@ -1,0 +1,18 @@
+{
+  "name": "Седна",
+  "icon": "ad_extendra:/textures/environment/sedna.png",
+  "sortnum": 0,
+  "category": "ad_astra:the_dwarf_planets_2",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Электраліт",
+      "item": "ad_extendra:electrolyte_ingot",
+      "text": "Пасля таго, як вы збярэце дастаткова плутонію для стварэння ракеты 10-га ўзроўню, вы зможаце адправіцца ў Седну. Апошні матэрыял, які вы будзеце шукаць, — гэта электраліт."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Электраліт выкарыстоўваецца для стварэння ракеты 11-га ўзроўню, здольнай дабрацца да новай сонечнай сістэмы."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Уран",
+  "icon": "ad_extendra:/textures/environment/uranus.png",
+  "sortnum": 0,
+  "category": "ad_astra:a_ringed_planet",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Уран",
+      "item": "ad_extendra:uranium_ingot",
+      "text": "Пасля таго, як вы збярэце дастаткова сатурліта для стварэння ракеты 6-га ўзроўню, вы зможаце адправіцца на Уран. Наступны матэрыял, які вы будзеце шукаць, — гэта ўран (элемент № 92)."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Уран выкарыстоўваецца для стварэння ракеты 7-га ўзроўню, здольнай даляцець да ветранай планеты."
+    }
+  ]
+}

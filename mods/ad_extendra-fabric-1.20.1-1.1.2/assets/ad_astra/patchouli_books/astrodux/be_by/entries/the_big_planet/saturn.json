@@ -1,0 +1,18 @@
+{
+  "name": "Сатурн",
+  "icon": "ad_extendra:/textures/environment/saturn.png",
+  "sortnum": 0,
+  "category": "ad_astra:the_big_planet",
+  "pages": [
+    {
+      "type": "patchouli:spotlight",
+      "title": "Сатурліт",
+      "item": "ad_extendra:saturlyte_ingot",
+      "text": "Пасля таго, як вы збярэце дастаткова Юпірэтыту для стварэння ракеты 5-га ўзроўню, вы зможаце адправіцца да Сатурна. Наступны матэрыял, які вы будзеце шукаць, — гэта Сатурліт (як кажуць, спадарожнік)."
+    },
+    {
+      "type": "patchouli:text",
+      "text": "Saturlyte is used to craft a tier 6 rocket capable of travelling to the coldest planet."
+    }
+  ]
+}
