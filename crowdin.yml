@@ -5,3 +5,5 @@ files:
     translation: /mods/ad_astra-fabric-1.20.1-1.15.20/assets/ad_astra/patchouli_books/astrodux/%locale%/categories/%original_file_name%
   - source: /mods/ad_extendra-fabric-1.20.1-1.1.2/assets/ad_astra/lang/en_us.json
     translation: /mods/ad_extendra-fabric-1.20.1-1.1.2/assets/ad_astra/lang/%locale%.json
+  - source: /mods/alloy-forgery-2.1.2+1.20/assets/alloy_forgery/lang/en_us.json
+    translation: /mods/alloy-forgery-2.1.2+1.20/assets/alloy_forgery/lang/%locale%.json
