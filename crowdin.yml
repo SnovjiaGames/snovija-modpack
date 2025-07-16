@@ -7,3 +7,5 @@ files:
     translation: /mods/ad_extendra-fabric-1.20.1-1.1.2/assets/ad_astra/lang/%locale%.json
   - source: /mods/alloy-forgery-2.1.2+1.20/assets/alloy_forgery/lang/en_us.json
     translation: /mods/alloy-forgery-2.1.2+1.20/assets/alloy_forgery/lang/%locale%.json
+  - source: /mods/antique-atlas-2.11.2+1.20/assets/antique_atlas/lang/en_us.json
+    translation: /mods/antique-atlas-2.11.2+1.20/assets/antique_atlas/lang/%locale%.json
