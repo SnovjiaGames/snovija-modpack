@@ -13,3 +13,5 @@ files:
     translation: /mods/better-end-4.0.11/assets/betterend/lang/%locale%.json
   - source: /mods/better-end-4.0.11/assets/betterend/patchouli_books/guidebook/en_us/categories/*.json
     translation: /mods/better-end-4.0.11/assets/betterend/patchouli_books/guidebook/%locale%/categories/%original_file_name%
+  - source: /mods/better-end-4.0.11/assets/betterend/patchouli_books/guidebook/en_us/entries/rituals/*.json
+    translation: /mods/better-end-4.0.11/assets/betterend/patchouli_books/guidebook/%locale%/entries/rituals/%original_file_name%
