@@ -1,3 +1,4 @@
+preserve_hierarchy: true
 files:
   - source: /mods/ad_astra-fabric-1.20.1-1.15.20/assets/ad_astra/lang/en_us.json
     translation: /mods/ad_astra-fabric-1.20.1-1.15.20/assets/ad_astra/lang/%locale%.json
