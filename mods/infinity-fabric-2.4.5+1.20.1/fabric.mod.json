@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "id": "infinity",
+  "version": "2.4.5+1.20.1",
+  "name": "Бясконцыя вымярэнні",
+  "description": "Натхнёны першакрасавіцкім здымкам 2020 года пад назвай 20w14infinite Snapshot, гэты мод дадае ў Minecraft бясконцую колькасць выпадкова згенераваных вымярэнняў.",
+  "authors": [
+    "Lera Riemann",
+    "cassiancc"
+  ],
+  "contact": {
+    "homepage": "https://github.com/LeraRiemann",
+    "sources": "https://github.com/LeraRiemann/ProjectInfinity",
+    "issues": "https://github.com/LeraRiemann/ProjectInfinity/issues"
+
+  },
+  "license": "GNU LGPLv3",
+  "icon": "assets/infinity/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.lerariemann.infinity.fabric.InfinityModFabric"
+    ],
+    "client": [
+      "net.lerariemann.infinity.fabric.client.InfinityModFabricClient"
+    ],
+    "modmenu": [
+      "net.lerariemann.infinity.compat.fabric.ModMenuCompat"
+    ],
+    "emi": [
+      "net.lerariemann.infinity.compat.emi.EmiCompat"
+    ]
+  },
+  "mixins": [
+    "infinity.mixins.json",
+    "infinity-fabric.mixins.json",
+    "dynreg.mixins.json"
+  ],
+  "accessWidener" : "infinity.accesswidener",
+
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric-api": "*",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "architectury": "*"
+  },
+  "suggests": {
+    "cloth-config": "*",
+    "modmenu": "*",
+    "create": ">6.0.0"
+  },
+  "custom": {
+    "lithium:options": {
+      "mixin.ai.poi.fast_portals": false
+    }
+  }
+}

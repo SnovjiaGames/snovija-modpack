@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "id": "farmersdelight",
+  "version": "1.20.1-2.4.0+refabricated",
+  "name": "Farmer\u0027s Delight",
+  "description": "A cozy expansion to farming and cooking!",
+  "authors": [
+    "MehVahdJukaar, MerchantPug"
+  ],
+  "contributors": [
+    "vectorwing"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/farmers-delight-refabricated",
+    "sources": "https://github.com/MehVahdJukaar/FarmersDelight"
+  },
+  "license": "MIT License",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "vectorwing.farmersdelight.FarmersDelight"
+    ],
+    "client": [
+      "vectorwing.farmersdelight.client.FarmersDelightClient"
+    ],
+    "mm:early_risers": [
+      "vectorwing.farmersdelight.FarmersDelightASM"
+    ],
+    "jei_mod_plugin": [
+      "vectorwing.farmersdelight.integration.jei.JEIPlugin"
+    ],
+    "rei_client": [
+      "vectorwing.farmersdelight.integration.rei.ClientREIPlugin"
+    ],
+    "rei_server": [
+      "vectorwing.farmersdelight.integration.rei.ServerREIPlugin"
+    ],
+    "emi": [
+      "vectorwing.farmersdelight.integration.emi.EMIPlugin"
+    ]
+  },
+  "mixins": [
+    "farmersdelight.mixins.json"
+  ],
+  "accessWidener": "farmersdelight.accesswidener",
+  "depends": {
+    "fabricloader": "\u003e\u003d0.15.7",
+    "fabric-api": "*",
+    "minecraft": "\u003e\u003d1.20 \u003c\u003d1.20.1"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/accessors-2.3.8+1.20.1.jar"
+    },
+    {
+      "file": "META-INF/jars/base-2.3.8+1.20.1.jar"
+    },
+    {
+      "file": "META-INF/jars/config-2.3.8+1.20.1.jar"
+    },
+    {
+      "file": "META-INF/jars/Fabric-ASM-v2.3.jar"
+    },
+    {
+      "file": "META-INF/jars/lazy_registration-2.3.8+1.20.1.jar"
+    },
+    {
+      "file": "META-INF/jars/loot-2.3.8+1.20.1.jar"
+    },
+    {
+      "file": "META-INF/jars/mixinextras-fabric-0.2.2.jar"
+    },
+    {
+      "file": "META-INF/jars/networking-2.3.8+1.20.1.jar"
+    },
+    {
+      "file": "META-INF/jars/recipe_book_categories-2.3.8+1.20.1.jar"
+    },
+    {
+      "file": "META-INF/jars/tags-2.3.8+1.20.1.jar"
+    },
+    {
+      "file": "META-INF/jars/tool_actions-2.3.8+1.20.1.jar"
+    }
+  ]
+}

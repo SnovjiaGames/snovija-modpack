@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "id": "modmenu",
+  "name": "Меню модаў",
+  "version": "7.2.2",
+  "environment": "client",
+  "license": "MIT",
+  "icon": "assets/modmenu/icon.png",
+  "entrypoints": {
+    "client": [
+      "com.terraformersmc.modmenu.ModMenu"
+    ],
+    "modmenu": [
+      "com.terraformersmc.modmenu.ModMenuModMenuCompat"
+    ]
+  },
+  "contact": {
+    "homepage": "https://modrinth.com/mod/modmenu",
+    "sources": "https://github.com/TerraformersMC/ModMenu",
+    "issues": "https://github.com/TerraformersMC/ModMenu/issues"
+  },
+  "depends": {
+    "fabric-resource-loader-v0": "*",
+    "fabric-screen-api-v1": "\u003e\u003d1.0.4",
+    "fabric-key-binding-api-v1": "*",
+    "fabric-lifecycle-events-v1": "*",
+    "fabricloader": "\u003e\u003d0.12.13",
+    "minecraft": "\u003e\u003d1.19.4-"
+  },
+  "breaks": {
+    "better_mod_button": "*"
+  },
+  "authors": [
+    "Prospector",
+    "haykam821",
+    "TerraformersMC"
+  ],
+  "contributors": [
+    "shedaniel",
+    "Draylar",
+    "Mordna",
+    "Madis0",
+    "Yanis48",
+    "LemmaEOF",
+    "fewizz",
+    "XuyuEre",
+    "geniiii",
+    "thiagokenis",
+    "Juuxel",
+    "Chloe Dawn",
+    "modmuss50",
+    "Patbox",
+    "Lykrast",
+    "Pyrofab",
+    "UpcraftLP",
+    "swordglowsblue",
+    "hinataaki",
+    "LeonXu98",
+    "magneticflux",
+    "vanja-san",
+    "AlexIIL",
+    "masoncook16",
+    "el97",
+    "Hephaestus-Dev",
+    "zabi94",
+    "dexman545",
+    "dhouck",
+    "Hambaka",
+    "po-stulate",
+    "FlashyReese",
+    "egeesin",
+    "TheGlitch76",
+    "ludg1e",
+    "williambl",
+    "PepperCode1",
+    "ThatTrollzer",
+    "ToffeeMax",
+    "kalucky0",
+    "Maaster",
+    "MartrixX",
+    "NotSteven",
+    "Dolphin 2.1",
+    "ENDERZOMBI102",
+    "anatom3000",
+    "OroArmor",
+    "jackassmc",
+    "Vaerian",
+    "RDKRACZ",
+    "Hulenkius",
+    "XfedeX",
+    "spnda",
+    "Jab125",
+    "SolidBlock",
+    "Tkain",
+    "nfitzen",
+    "DenaryDev",
+    "legenden",
+    "NaiNonTH",
+    "MagnusHJensen",
+    "Benjamin-Norton",
+    "triphora",
+    "Pyrrha"
+  ],
+  "description": "Дадае меню модаў для прагляду спісу ўсталяваных вамі модаў.",
+  "mixins": [
+    "mixins.modmenu.json"
+  ],
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/jEGF5fb"
+      }
+    }
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/fabric-api-base-0.4.29+b04edc7a77.jar"
+    },
+    {
+      "file": "META-INF/jars/fabric-resource-loader-v0-0.11.7+f7923f6d77.jar"
+    },
+    {
+      "file": "META-INF/jars/fabric-screen-api-v1-2.0.6+b3afc78b77.jar"
+    },
+    {
+      "file": "META-INF/jars/fabric-key-binding-api-v1-1.0.36+fb8d95da77.jar"
+    },
+    {
+      "file": "META-INF/jars/fabric-lifecycle-events-v1-2.2.20+b3afc78b77.jar"
+    }
+  ]
+}

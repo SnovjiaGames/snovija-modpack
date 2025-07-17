@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "dungeons_arise",
+  "version": "2.1.57",
+
+  "name": "Неймаверныя падзямеллі",
+  "description": "Дадае розныя элегантныя — і, верагодна, варожыя — падзямелля і збудаванні ў стылі roguelike, якія генеруюцца ў вашых светах!",
+  "authors": [
+    "Snovija Games"
+  ],
+
+  "credits": "Special thanks to TheQKnight for their 1.19 port!",
+  "license": "All Rights Reserved",
+  "icon": "img.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.aurelj.dungeons_arise.DungeonsAriseMain"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "minecraft": ">=1.20",
+    "fabric": ">=0.47.8"
+  }
+}

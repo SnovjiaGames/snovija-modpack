@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "jei",
+  "version": "15.20.0.112",
+
+  "name": "Just Enough Items",
+  "description": "JEI is an item and recipe viewing mod for Minecraft, built from the ground up for stability and performance.",
+  "authors": [
+    "mezz"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/jei",
+    "sources": "https://github.com/mezz/JustEnoughItems"
+  },
+
+  "license": "The MIT License (MIT)",
+  "icon": "jei-icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "mezz.jei.fabric.JustEnoughItems"
+    ],
+    "client": [
+      "mezz.jei.fabric.JustEnoughItemsClient"
+    ],
+    "jei_mod_plugin": [
+      "mezz.jei.library.plugins.vanilla.VanillaPlugin",
+      "mezz.jei.library.plugins.jei.JeiInternalPlugin",
+      "mezz.jei.library.plugins.debug.JeiDebugPlugin",
+      "mezz.jei.fabric.plugins.fabric.FabricGuiPlugin",
+      "mezz.jei.gui.plugins.JeiGuiPlugin"
+    ]
+  },
+  "mixins": [
+    "jei.mixins.json"
+  ],
+  "accessWidener" : "jei.accesswidener",
+
+  "depends": {
+    "fabricloader": ">=0.16.3",
+    "fabric-api": ">=0.92.2+1.20.1",
+    "java": ">=17"
+  }
+}
