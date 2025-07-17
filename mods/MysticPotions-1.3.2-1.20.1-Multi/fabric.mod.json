@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "mysticpotions",
+  "version": "1.3.2",
+  "name": "Mystic Potions (Fabric)",
+  "description": "Adds New Potions To Minecraft!",
+  "authors": [
+    "Creep3rCrafter"
+  ],
+  "contact": {
+    "homepage": "https://github.com/creep3rcrafter/Mystic-Potions",
+    "sources": "https://github.com/creep3rcrafter/Mystic-Potions"
+  },
+  "license": "All Rights Reserved",
+  "icon": "assets/mysticpotions/MysticPotions Logo HD720pC.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "fabric.net.creep3rcrafter.mysticpotions.fabric.MysticPotionsFabric"
+    ]
+  },
+  "mixins": [
+    "fabric-mysticpotions.mixins.json",
+    "fabric-mysticpotions-common.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": "\u003e\u003d1.20.1",
+    "architectury": "\u003e\u003d9.2.14"
+  },
+  "accessWidener": "fabric-mysticpotions.accesswidener"
+}
