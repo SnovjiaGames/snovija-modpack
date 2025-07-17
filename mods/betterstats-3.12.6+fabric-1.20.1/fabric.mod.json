@@ -1,0 +1,50 @@
+{
+	"schemaVersion": 1,
+	"id": "betterstats",
+	"version": "3.12.6+fabric-1.20.1",
+	
+	"name": "Палепшаны экран статыстыкі",
+	"description": "Паляпшае экран статыстыкі і робіць яго больш карысным.",
+	"authors": ["TheCSDev"],
+	"contact":
+	{
+		"homepage": "https://github.com/TheCSMods",
+		"sources": "https://github.com/TheCSMods/mc-better-stats",
+		"issues": "https://github.com/TheCSMods/mc-better-stats/issues"
+	},
+	
+	"license": "LGPL-3.0",
+	"icon": "assets/betterstats/icon.png",
+	
+	"environment": "*",
+	"entrypoints":
+	{
+		"client": ["io.github.thecsdev.betterstats.BetterStatsFabric"],
+		"server": ["io.github.thecsdev.betterstats.BetterStatsFabric"],
+		"modmenu": ["io.github.thecsdev.betterstats.api.client.modmenu.ModMenuApiImpl"]
+	},
+	"": "", "mixins": ["betterstats.mixin.events.json", "betterstats.mixin.security.json"], "": "",
+	
+	"": "", "jars": [], "": "",
+	"depends":
+	{
+		"fabricloader": ">=0.14.22",
+		"minecraft": "1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"tcdcommons": ">=3.12.2"
+	},
+	
+	"custom":
+	{
+		"modmenu":
+		{
+			"links":
+			{
+				"modmenu.curseforge": "https://www.curseforge.com/projects/667464",
+				"modmenu.modrinth": "https://modrinth.com/mod/n6PXGAoM",
+				"modmenu.youtube": "https://www.youtube.com/@TheCSDev"
+			}
+		}
+	}
+}
