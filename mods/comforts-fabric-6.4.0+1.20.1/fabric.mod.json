@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "id": "comforts",
+  "version": "6.4.0+1.20.1",
+  "name": "Сон у камфорце!",
+  "description": "Дадае спальныя мяшкі і гамакі для зручнасці пераноскі і магчымасці пераходу з дня на ноч без неабходнасці ўсталёўваць новыя месцы для спаўна.\nВыпускаецца ў 16 розных колерах!",
+  "authors": [
+    "Illusive Soulworks"
+  ],
+  "contact": {
+    "issues": "https://github.com/illusivesoulworks/comforts/issues"
+  },
+  "license": "LGPL-3.0-or-later",
+  "icon": "comforts_icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.illusivesoulworks.comforts.ComfortsFabricMod"
+    ],
+    "client": [
+      "com.illusivesoulworks.comforts.ComfortsFabricClientMod"
+    ],
+    "spectrelib": [
+      "com.illusivesoulworks.comforts.ComfortsConfigInitializer"
+    ],
+    "cardinal-components-entity": [
+      "com.illusivesoulworks.comforts.common.ComfortsComponents"
+    ]
+  },
+  "custom": {
+    "cardinal-components": [
+      "comforts:sleep_tracker"
+    ]
+  },
+  "mixins": [
+    "comforts.mixins.json",
+    "comforts.fabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "\u003e\u003d0.14",
+    "fabric-api": "*",
+    "minecraft": "1.20.x",
+    "java": "\u003e\u003d17",
+    "cardinal-components-base": "*",
+    "cardinal-components-entity": "*"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/cardinal-components-base-5.2.1.jar"
+    },
+    {
+      "file": "META-INF/jars/cardinal-components-entity-5.2.1.jar"
+    },
+    {
+      "file": "META-INF/jars/spectrelib-fabric-0.13.15+1.20.1.jar"
+    }
+  ]
+}
