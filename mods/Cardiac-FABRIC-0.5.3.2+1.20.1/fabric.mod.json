@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "cardiac",
+  "version": "0.5.3.2",
+  "name": "Кругаварот жыцця",
+  "description": "Сферы здароўя, якія можна выбраць пасля смерці моба",
+  "authors": [
+    "OctoStudios"
+  ],
+  "license": "All Rights Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "it.hurts.octostudios.cardiac.fabric.CardiacFabric"
+    ],
+    "client": [
+      "it.hurts.octostudios.cardiac.fabric.CardiacFabricClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.20",
+    "java": ">=17",
+    "architectury": ">=9.2.14",
+    "octolib": ">=0.4.2",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
