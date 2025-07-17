@@ -21,3 +21,15 @@ files:
     translation: /mods/betterstats-3.12.6+fabric-1.20.1/assets/betterstats/lang/%locale%.json
   - source: /mods/BiomesOPlenty-fabric-1.20.1-19.0.0.96/assets/biomesoplenty/lang/en_us.json
     translation: /mods/BiomesOPlenty-fabric-1.20.1-19.0.0.96/assets/biomesoplenty/lang/%locale%.json
+  - source: /mods/basicweapons-1.2.5+1.20.1/assets/basicweapons/lang/en_us.json
+    translation: /mods/basicweapons-1.2.5+1.20.1/assets/basicweapons/lang/%locale%.json
+  - source: /mods/BetterF3-7.0.2-Fabric-1.20.1/assets/betterf3/lang/en_us.json
+    translation: /mods/BetterF3-7.0.2-Fabric-1.20.1/assets/betterf3/lang/%locale%.json
+  - source: /mods/BetterThirdPerson-Fabric-1.20-1.9.0/assets/betterthirdperson/lang/en_us.json
+    translation: /mods/BetterThirdPerson-Fabric-1.20-1.9.0/assets/betterthirdperson/lang/%locale%.json
+  - source: /mods/Cardiac-FABRIC-0.5.3.2+1.20.1/assets/cardiac/lang/en_us.json
+    translation: /mods/Cardiac-FABRIC-0.5.3.2+1.20.1/assets/cardiac/lang/%locale%.json
+  - source: /mods/bclib-3.0.14/assets/bclib/lang/en_us.json
+    translation: /mods/bclib-3.0.14/assets/bclib/lang/%locale%.json
+  - source: /mods/create_vibrant_vaults-0.2.0+1.20.1/assets/create_vibrant_vaults/lang/en_us.json
+    translation: /mods/create_vibrant_vaults-0.2.0+1.20.1/assets/create_vibrant_vaults/lang/%locale%.json
