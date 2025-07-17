@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "biomesoplenty",
+  "version": "19.0.0.96",
+  "name": "Біямы ўсеялякія",
+  "description": "Дадае больш за 50 новых біёмаў, блокаў і многага іншага!",
+  "authors": [
+    "Adubbz",
+    "Forstride"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty",
+    "sources": "https://github.com/Glitchfiend/BiomesOPlenty"
+  },
+  "license": "All Rights Reserved",
+  "icon": "assets/biomesoplenty/textures/item/bop_icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "glitchcore": [
+      "biomesoplenty.fabric.core.BiomesOPlentyFabric"
+    ],
+    "terrablender": [
+      "biomesoplenty.fabric.core.BiomesOPlentyFabric"
+    ]
+  },
+  "mixins": [
+    "biomesoplenty.mixins.json",
+    "biomesoplenty.fabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": "1.20.1",
+    "java": ">=17",
+    "glitchcore": ">=0.0.1.0",
+    "terrablender": ">=3.0.1.7"
+  },
+  "accessWidener": "biomesoplenty.accesswidener",
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/GyyzU6T"
+      }
+    }
+  }
+}
