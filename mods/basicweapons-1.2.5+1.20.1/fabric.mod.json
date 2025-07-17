@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "basicweapons",
+  "version": "1.2.5+1.20.1",
+  "name": "Базавая зброя",
+  "description": "Дадае ванільную+ зброю — без лішняга бляску ці бліскавак",
+  "authors": [
+    "Khazoda"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Khazoda/basic-weapons",
+    "sources": "https://github.com/Khazoda/basic-weapons"
+  },
+  "license": "MIT",
+  "icon": "bw_icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.seacroak.basicweapons.BasicWeapons"
+    ],
+    "client": [
+      "com.seacroak.basicweapons.BasicWeaponsClient"
+    ]
+  },
+  "mixins": [
+    "basicweapons.mixins.json",
+    {
+      "config": "basicweapons.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": "\u003e\u003d0.15.0",
+    "minecraft": "~1.20.1",
+    "java": "\u003e\u003d17",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/mixinextras-fabric-0.2.0.jar"
+    }
+  ]
+}

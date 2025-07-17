@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "betterf3",
+  "version": "7.0.2",
+  "name": "Лепшы F3",
+  "description": "Замяняе арыгінальны адладкавы HUD Minecraft на лёгка наладжвальны, больш чытэльны HUD.",
+  "icon": "icon.png",
+  "authors": [
+    "cominixo",
+    "TreyRuffy"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/betterf3",
+    "sources": "https://github.com/TreyRuffy/BetterF3.git",
+    "issues": "https://github.com/TreyRuffy/BetterF3/issues/"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.cominixo.betterf3.BetterF3Fabric"
+    ],
+    "modmenu": [
+      "me.cominixo.betterf3.ModMenuIntegration"
+    ]
+  },
+  "depends": {
+    "fabricloader": "\u003e\u003d0.14.9",
+    "minecraft": "\u003e\u003d1.20"
+  },
+  "recommends": {
+    "modmenu": "\u003e\u003d7.0.0"
+  },
+  "accessWidener": "betterf3.accesswidener",
+  "mixins": [
+    "betterf3.mixins.json"
+  ],
+  "jars": [
+    {
+      "file": "META-INF/jars/cloth-config-fabric-11.1.106.jar"
+    },
+    {
+      "file": "META-INF/jars/fabric-resource-loader-v0-0.11.8+e3d6ed2577.jar"
+    }
+  ]
+}
