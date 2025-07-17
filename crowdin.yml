@@ -19,3 +19,5 @@ files:
     translation: /mods/better-nether-9.0.10/assets/betternether/lang/%locale%.json
   - source: /mods/betterstats-3.12.6+fabric-1.20.1/assets/betterstats/lang/en_us.json
     translation: /mods/betterstats-3.12.6+fabric-1.20.1/assets/betterstats/lang/%locale%.json
+  - source: /mods/BiomesOPlenty-fabric-1.20.1-19.0.0.96/assets/biomesoplenty/lang/en_us.json
+    translation: /mods/BiomesOPlenty-fabric-1.20.1-19.0.0.96/assets/biomesoplenty/lang/%locale%.json
