@@ -1,4 +1,3 @@
-preserve_hierarchy: true
 files:
   - source: /mods/ad_astra-fabric-1.20.1-1.15.20/assets/ad_astra/lang/en_us.json
     translation: /mods/ad_astra-fabric-1.20.1-1.15.20/assets/ad_astra/lang/%locale%.json
@@ -18,3 +17,5 @@ files:
     translation: /mods/better-end-4.0.11/assets/betterend/patchouli_books/guidebook/%locale%/entries/rituals/%original_file_name%
   - source: /mods/better-nether-9.0.10/assets/betternether/lang/en_us.json
     translation: /mods/better-nether-9.0.10/assets/betternether/lang/%locale%.json
+  - source: mods/betterstats-3.12.6+fabric-1.20.1/assets/betterstats/lang/en_us.json
+    translation: mods/betterstats-3.12.6+fabric-1.20.1/assets/betterstats/lang/%locale%.json
