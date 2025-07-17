@@ -3,27 +3,36 @@ files:
   - source: /mods/ad_astra-fabric-1.20.1-1.15.20/assets/ad_astra/lang/en_us.json
     translation: /mods/ad_astra-fabric-1.20.1-1.15.20/assets/ad_astra/lang/%locale%.json
     content_segmentation: 0
+    export_empty_translations: true
   - source: /mods/ad_astra-fabric-1.20.1-1.15.20/assets/ad_astra/patchouli_books/astrodux/en_us/categories/*.json
     translation: /mods/ad_astra-fabric-1.20.1-1.15.20/assets/ad_astra/patchouli_books/astrodux/%locale%/categories/%original_file_name%
     content_segmentation: 0
+    export_empty_translations: true
   - source: /mods/ad_extendra-fabric-1.20.1-1.1.2/assets/ad_astra/lang/en_us.json
     translation: /mods/ad_extendra-fabric-1.20.1-1.1.2/assets/ad_astra/lang/%locale%.json
     content_segmentation: 0
+    export_empty_translations: true
   - source: /mods/alloy-forgery-2.1.2+1.20/assets/alloy_forgery/lang/en_us.json
     translation: /mods/alloy-forgery-2.1.2+1.20/assets/alloy_forgery/lang/%locale%.json
     content_segmentation: 0
+    export_empty_translations: true
   - source: /mods/antique-atlas-2.11.2+1.20/assets/antique_atlas/lang/en_us.json
     translation: /mods/antique-atlas-2.11.2+1.20/assets/antique_atlas/lang/%locale%.json
     content_segmentation: 0
+    export_empty_translations: true
   - source: /mods/better-end-4.0.11/assets/betterend/lang/en_us.json
     translation: /mods/better-end-4.0.11/assets/betterend/lang/%locale%.json
     content_segmentation: 0
+    export_empty_translations: true
   - source: /mods/better-end-4.0.11/assets/betterend/patchouli_books/guidebook/en_us/categories/*.json
     translation: /mods/better-end-4.0.11/assets/betterend/patchouli_books/guidebook/%locale%/categories/%original_file_name%
     content_segmentation: 0
+    export_empty_translations: true
   - source: /mods/better-end-4.0.11/assets/betterend/patchouli_books/guidebook/en_us/entries/rituals/*.json
     translation: /mods/better-end-4.0.11/assets/betterend/patchouli_books/guidebook/%locale%/entries/rituals/%original_file_name%
     content_segmentation: 0
+    export_empty_translations: true
   - source: /mods/better-nether-9.0.10/assets/betternether/lang/en_us.json
     translation: /mods/better-nether-9.0.10/assets/betternether/lang/%locale%.json
     content_segmentation: 0
+    export_empty_translations: true
