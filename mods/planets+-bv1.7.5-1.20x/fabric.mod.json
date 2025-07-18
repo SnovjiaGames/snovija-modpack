@@ -1,0 +1,34 @@
+{
+    "schemaVersion": 1,
+    "id": "planetsplus",
+    "version": "BV1.7.5",
+    "name": "Вялікі космас",
+    "description": "Дадае больш планет і спадарожнікаў для даследавання!",
+    "authors": [
+        "DeadbushCarrot"
+    ],
+    "contact": {
+        "homepage": "https://modrinth.com/datapack/planetsplus",
+        "issues": "https://github.com/DeadbushCarrot/Planetsplus/issues",
+		"discord": "https://discord.gg/Bfzukhk5Ks"
+    },
+    "license": "MIT",
+    "icon": "pack.png",
+    "environment": "*",
+    "entrypoints": {},
+    "mixins": [],
+    "depends": {
+        "fabricloader": ">=0.12.7",
+        "fabric-api-base": "*",
+        "minecraft": ">=1.20",
+        "ad_astra": ">=0.1.0"		
+    },
+    "custom": {
+        "modmenu": {
+            "links": {
+                "modmenu.curseforge": "https://www.curseforge.com/minecraft/data-packs/planetsplus",
+                "modmenu.modrinth": "https://modrinth.com/datapack/planetsplus"
+            }
+        }
+    }
+}
