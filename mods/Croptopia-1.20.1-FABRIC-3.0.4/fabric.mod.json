@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "croptopia",
+  "version": "3.0.3",
+  "name": "Ежа бяз межаў",
+  "description": "Дадае ў гульню ўраджай.",
+  "authors": [
+    "Thonk",
+    "Rainbowcraft2"
+  ],
+  "contributors": [
+    "qsefthuopq",
+    "Motschen",
+    "emilyalexandra",
+    "didelphimorph",
+    "DefektIV (translation)",
+    "devpelux (translation)",
+    "Ayutac"
+  ],
+  "contact": {
+    "sources": "https://github.com/ExcessiveAmountsOfZombies/Croptopia",
+    "issues": "https://github.com/ExcessiveAmountsOfZombies/Croptopia/issues",
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/croptopia-fabric"
+  },
+  "license": "MIT",
+  "icon": "assets/croptopia/croptopia.png",
+  "environment": "*",
+  "accessWidener": "croptopia.accesswidener",
+  "entrypoints": {
+    "fabric-datagen": [
+      "com.epherical.croptopia.datagen.CroptopiaDataGeneratorEntry"
+    ],
+    "client": [
+      "com.epherical.croptopia.client.CroptopiaClient"
+    ],
+    "main": [
+      "com.epherical.croptopia.Croptopia"
+    ],
+    "modmenu": [
+      "com.epherical.croptopia.dependencies.ModMenu"
+    ]
+  },
+  "mixins": [
+    "Croptopia.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.12",
+    "fabric-api": ">=0.55.1",
+    "epherolib": "*",
+    "fabric-biome-api-v1": ">=3.0.0",
+    "minecraft": ">=1.19.4"
+  },
+  "suggests": {
+    "patchouli": "*",
+    "dehydration": ">=1.0.10"
+  }
+}
