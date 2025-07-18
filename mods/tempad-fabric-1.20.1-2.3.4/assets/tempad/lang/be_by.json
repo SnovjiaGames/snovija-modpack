@@ -47,8 +47,7 @@
   "tempad_option.tempad.energy": "Energy: %s/%s §b⚡§r",
   "tempad_option.tempad.energy_cost": "Costs %s §b⚡§r",
   "item.tempad.empty_tank": "Empty",
-  "tempad_option.tempad.fluid": "%s: %s/%s §6\uD83E\uDEA3§r",
-
+  "tempad_option.tempad.fluid": "%s: %s/%s §6🪣§r",
   "item.tempad.location_card": "Location Card",
   "item.tempad.location_card.creator_toolip": "Created by %s",
   "item.tempad.location_card.shift_toolip": "Hold [%s] for more info",
@@ -56,7 +55,6 @@
   "item.tempad.location_card.add_location": "Right click to set location",
   "item.tempad.location_card.set_name": "Rename in anvil to set location name",
   "item.tempad.location_card.set_location": "Set location: %s",
-
   "category.tempad.keybinds": "Tempad",
   "key.tempad.favorite": "Open favorited location",
   "key.tempad.shortcut": "Open Tempad screen"
