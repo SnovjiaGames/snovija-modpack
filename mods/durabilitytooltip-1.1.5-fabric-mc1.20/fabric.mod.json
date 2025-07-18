@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "durabilitytooltip",
+  "version": "1.1.5",
+  "name": "Durability Tooltip",
+  "description": "Durability Tooltip shows you the durability of an item!",
+  "authors": [
+    "SuperMartijn642"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/durability-tooltip",
+    "sources": "https://github.com/SuperMartijn642/DurabilityTooltip"
+  },
+  "license": "All rights reserved",
+  "icon": "durabilitytooltip.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.supermartijn642.durabilitytooltip.DurabilityTooltip"
+    ],
+    "client": [
+      "com.supermartijn642.durabilitytooltip.DurabilityTooltipClient"
+    ]
+  },
+  "mixins": [
+    "durabilitytooltip.mixins.json"
+  ],
+  "accessWidener": "durabilitytooltip.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric": "*",
+    "minecraft": ">=1.20 <1.21",
+    "java": ">=17",
+    "supermartijn642configlib": ">=1.1.0"
+  }
+}

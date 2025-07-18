@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "croptopiadelight",
+  "version": "1.0.1",
+
+  "name": "Croptopia Delight",
+  "description": "Mod adds the integration of Croptopia recipes with Farmer's Delight and their addons.",
+  "authors": [
+    "Ropyxa",
+    "Ray Lirov"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/croptopia-delight"
+  },
+
+  "license": "GPL-3.0",
+  "icon": "assets/croptopiadelight/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "client": ["net.raylirov.croptopiadelight.client.CroptopiaDelightClient"],
+    "main": ["net.raylirov.croptopiadelight.CroptopiaDelight"]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "1.20.1",
+    "croptopia": ">=3.0.3",
+    "farmersdelight": ">=1.20.1-2.2.0"
+  }
+}

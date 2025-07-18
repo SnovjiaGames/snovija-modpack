@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "dungeons_arise_seven_seas",
+	"version": "1.0.2",
+	"name": "When Dungeons Arise: Seven Seas",
+	"description": "Elegant - and likely hostile - vessels lost in the seven seas...",
+	"authors": [
+		"Aureljz, Zephyrusjz"
+	],
+	"contact": {
+		"homepage": "https://legacy.curseforge.com/minecraft/mc-mods/when-dungeons-arise-seven-seas",
+		"sources": "https://github.com/Aureljz/WhenDungeonsArise-SevenSeas-Fabric"
+	},
+	"license": "All Rights Reserved",
+	"icon": "assets/dungeons_arise_seven_seas/wda_seven_seas.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.aurelj.dungeons_arise_seven_seas.DungeonsAriseSevenSeasMain"
+		],
+		"client": []
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.15.3",
+		"minecraft": ">=1.20",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

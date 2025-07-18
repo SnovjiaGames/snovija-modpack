@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "damagevignette",
+  "version": "3.0.0",
+  "name": "DamageVignette",
+  "description": "Adds a red vignette effect when low on health.",
+  "authors": [
+    "Octol1ttle"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/damagevignette",
+    "sources": "https://github.com/Octol1ttle/DamageVignette",
+    "issues": "https://github.com/Octol1ttle/DamageVignette/issues"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/5kcBCvnbTp"
+      }
+    }
+  },
+  "license": "MIT",
+  "icon": "assets/damagevignette/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "ru.octol1ttle.damagevignette.fabric.DamageVignetteFabric"
+    ]
+  },
+  "mixins": [
+    "damagevignette.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "^1.20.0"
+  },
+  "accessWidener": "damagevignette.accesswidener"
+}
