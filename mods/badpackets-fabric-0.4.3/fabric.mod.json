@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id"           : "badpackets",
+  "version"      : "0.4.3",
+
+  "name"         : "Абмен пакетамі",
+  "description"  : "Дазволіць абмен пакетамі паведамленняў паміж некалькімі платформамі для моддынгу.",
+  "icon"         : "badpackets.png",
+  "authors"      : ["deirn"],
+  "license"      : "Apache-2.0",
+  "mixins"       : ["badpackets.mixins.json"],
+  "depends": {
+    "minecraft" : ">=1.19.4-"
+  }
+}

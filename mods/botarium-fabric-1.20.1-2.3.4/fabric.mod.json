@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "botarium",
+  "version": "2.3.4",
+  "name": "Батарыум",
+  "description": "Кросплатформенны API для распрацоўшчыкаў, які спрашчае перадачу і захоўванне прадметаў, вадкасцей і энергіі, а таксама мае некаторыя іншыя карысныя функцыі.",
+  "authors": [
+    "CodexAdrian"
+  ],
+  "contributors": [
+    "ThatGravyBoat",
+    "Alex Nijjar"
+  ],
+  "contact": {
+    "website": "https://modrinth.com/mod/botarium",
+    "repo": "https://github.com/terrarium-earth/botarium",
+    "issues": "https://github.com/terrarium-earth/botarium/issues"
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "earth.terrarium.botarium.fabric.BotariumFabric"
+    ],
+    "client": [
+      "earth.terrarium.botarium.fabric.BotariumFabricClient"
+    ]
+  },
+  "mixins": [
+    "botarium.fabric.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": "\u003e\u003d1.20"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/energy-3.0.0.jar"
+    }
+  ]
+}

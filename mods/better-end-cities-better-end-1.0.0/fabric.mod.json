@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "better-end-cities-better-end",
+	"version": "1.0.0",
+	"name": "Гарады Краю",
+	"description": "Гэта паляпшае выгляд канчатковых гарадоў, выкарыстоўваючы блокі толькі з Vanilla.",
+	"authors": [
+		"TheArchitects"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/better-end-cities-better-end/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.architects.betterendcities.BetterEndCitiesBetterEnd"
+		]
+	},
+	"mixins": [
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
