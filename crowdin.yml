@@ -63,3 +63,11 @@ files:
     translation: /%original_path%/%locale%.json
   - source: /mods/create-fabric-0.5.1-j-build.1631+mc1.20.1/assets/create/lang/en_us.json
     translation: /%original_path%/%locale%.json
+  - source: /mods/CroptopiaAdditions-1.20.1-FABRIC-2.1/assets/croptopia_additions/lang/en_us.json
+    translation: /%original_path%/%locale%.json
+  - source: /mods/dark-loading-screen-1.6.14/assets/dark-loading-screen/lang/en_us.json
+    translation: /%original_path%/%locale%.json
+  - source: /mods/deeperdarker-fabric-1.20-1.3.3/assets/deeperdarker/lang/en_us.json
+    translation: /%original_path%/%locale%.json
+  - source: /mods/durabilitytooltip-1.1.5-fabric-mc1.20/assets/durabilitytooltip/lang/en_us.json
+    translation: /%original_path%/%locale%.json
