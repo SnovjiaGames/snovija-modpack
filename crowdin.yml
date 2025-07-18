@@ -57,3 +57,9 @@ files:
     translation: /%original_path%/%locale%.json
   - source: /mods/XaerosWorldMap_1.39.9_Fabric_1.20/assets/xaeroworldmap/lang/en_us.json
     translation: /%original_path%/%locale%.json
+  - source: /mods/cloth-config-11.1.136-fabric/assets/cloth-config2/lang/en_us.json
+    translation: /%original_path%/%locale%.json
+  - source: /mods/Croptopia-1.20.1-FABRIC-3.0.4/assets/croptopia/lang/en_us.json
+    translation: /%original_path%/%locale%.json
+  - source: /mods/create-fabric-0.5.1-j-build.1631+mc1.20.1/assets/create/lang/en_us.json
+    translation: /%original_path%/%locale%.json
