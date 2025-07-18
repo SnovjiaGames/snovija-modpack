@@ -1,28 +1,28 @@
 files:
   - source: /mods/ad_astra-fabric-1.20.1-1.15.20/assets/ad_astra/lang/en_us.json
-    translation: /mods/ad_astra-fabric-1.20.1-1.15.20/assets/ad_astra/lang/%locale%.json
+    translation: /%original_path%/%locale%.json
   - source: /mods/ad_astra-fabric-1.20.1-1.15.20/assets/ad_astra/patchouli_books/astrodux/en_us/categories/*.json
     translation: /mods/ad_astra-fabric-1.20.1-1.15.20/assets/ad_astra/patchouli_books/astrodux/%locale%/categories/%original_file_name%
   - source: /mods/ad_extendra-fabric-1.20.1-1.1.2/assets/ad_astra/lang/en_us.json
-    translation: /mods/ad_extendra-fabric-1.20.1-1.1.2/assets/ad_astra/lang/%locale%.json
+    translation: /%original_path%/%locale%.json
   - source: /mods/alloy-forgery-2.1.2+1.20/assets/alloy_forgery/lang/en_us.json
-    translation: /mods/alloy-forgery-2.1.2+1.20/assets/alloy_forgery/lang/%locale%.json
+    translation: /%original_path%/%locale%.json
   - source: /mods/antique-atlas-2.11.2+1.20/assets/antique_atlas/lang/en_us.json
-    translation: /mods/antique-atlas-2.11.2+1.20/assets/antique_atlas/lang/%locale%.json
+    translation: /%original_path%/%locale%.json
   - source: /mods/better-end-4.0.11/assets/betterend/lang/en_us.json
-    translation: /mods/better-end-4.0.11/assets/betterend/lang/%locale%.json
+    translation: /%original_path%/%locale%.json
   - source: /mods/better-end-4.0.11/assets/betterend/patchouli_books/guidebook/en_us/categories/*.json
     translation: /mods/better-end-4.0.11/assets/betterend/patchouli_books/guidebook/%locale%/categories/%original_file_name%
   - source: /mods/better-end-4.0.11/assets/betterend/patchouli_books/guidebook/en_us/entries/rituals/*.json
     translation: /mods/better-end-4.0.11/assets/betterend/patchouli_books/guidebook/%locale%/entries/rituals/%original_file_name%
   - source: /mods/better-nether-9.0.10/assets/betternether/lang/en_us.json
-    translation: /mods/better-nether-9.0.10/assets/betternether/lang/%locale%.json
+    translation: /%original_path%/%locale%.json
   - source: /mods/betterstats-3.12.6+fabric-1.20.1/assets/betterstats/lang/en_us.json
-    translation: /mods/betterstats-3.12.6+fabric-1.20.1/assets/betterstats/lang/%locale%.json
+    translation: /%original_path%/%locale%.json
   - source: /mods/BiomesOPlenty-fabric-1.20.1-19.0.0.96/assets/biomesoplenty/lang/en_us.json
-    translation: /mods/BiomesOPlenty-fabric-1.20.1-19.0.0.96/assets/biomesoplenty/lang/%locale%.json
+    translation: /%original_path%/%locale%.json
   - source: /mods/basicweapons-1.2.5+1.20.1/assets/basicweapons/lang/en_us.json
-    translation: /mods/basicweapons-1.2.5+1.20.1/assets/basicweapons/lang/%locale%.json
+    translation: /%original_path%/%locale%.json
   - source: /mods/BetterF3-7.0.2-Fabric-1.20.1/assets/betterf3/lang/en_us.json
     translation: /mods/BetterF3-7.0.2-Fabric-1.20.1/assets/betterf3/lang/%locale%.json
   - source: /mods/BetterThirdPerson-Fabric-1.20-1.9.0/assets/betterthirdperson/lang/en_us.json
@@ -30,6 +30,30 @@ files:
   - source: /mods/Cardiac-FABRIC-0.5.3.2+1.20.1/assets/cardiac/lang/en_us.json
     translation: /mods/Cardiac-FABRIC-0.5.3.2+1.20.1/assets/cardiac/lang/%locale%.json
   - source: /mods/bclib-3.0.14/assets/bclib/lang/en_us.json
-    translation: /mods/bclib-3.0.14/assets/bclib/lang/%locale%.json
+    translation: /%original_path%/%locale%.json
   - source: /mods/create_vibrant_vaults-0.2.0+1.20.1/assets/create_vibrant_vaults/lang/en_us.json
-    translation: /mods/create_vibrant_vaults-0.2.0+1.20.1/assets/create_vibrant_vaults/lang/%locale%.json
+    translation: /%original_path%/%locale%.json
+  - source: /mods/DungeonsArise-1.20.1-2.1.57-fabric-release/assets/dungeons_arise/lang/en_us.json
+    translation: /%original_path%/%locale%.json
+  - source: /mods/FarmersDelight-1.20.1-2.4.0+refabricated/assets/farmersdelight/lang/en_us.json
+    translation: /%original_path%/%locale%.json
+  - source: /mods/infinity-fabric-2.4.5+1.20.1/assets/infinity/lang/en_us.json
+    translation: /%original_path%/%locale%.json
+  - source: /mods/jei-1.20.1-fabric-15.20.0.112/assets/jei/lang/en_us.json
+    translation: /%original_path%/%locale%.json
+  - source: /mods/modmenu-7.2.2/assets/modmenu/lang/en_us.json
+    translation: /%original_path%/%locale%.json
+  - source: /mods/MysticPotions-1.3.2-1.20.1-Multi/assets/mysticpotions/lang/en_us.json
+    translation: /%original_path%/%locale%.json
+  - source: /mods/Notes-1.20.1-2.1.0-fabric/assets/notes/lang/en_us.json
+    translation: /%original_path%/%locale%.json
+  - source: /mods/planets+-bv1.7.5-1.20x/assets/ad_astra/patchouli_books/astrodux/en_us/categories/*.json
+    translation: /mods/planets+-bv1.7.5-1.20x/assets/ad_astra/patchouli_books/astrodux/%locale%/categories/%original_file_name%
+  - source: /mods/planets+-bv1.7.5-1.20x/assets/ad_astra/patchouli_books/astrodux/en_us/entries/going_beyond/*.json
+    translation: /mods/planets+-bv1.7.5-1.20x/assets/ad_astra/patchouli_books/astrodux/%locale%/entries/going_beyond/%original_file_name%
+  - source: /mods/planets+-bv1.7.5-1.20x/assets/ad_astra/patchouli_books/astrodux/en_us/entries/planet_invader/*.json
+    translation: /mods/planets+-bv1.7.5-1.20x/assets/ad_astra/patchouli_books/astrodux/%locale%/entries/planet_invader/%original_file_name%
+  - source: /mods/tempad-fabric-1.20.1-2.3.4/assets/tempad/lang/en_us.json
+    translation: /%original_path%/%locale%.json
+  - source: /mods/XaerosWorldMap_1.39.9_Fabric_1.20/assets/xaeroworldmap/lang/en_us.json
+    translation: /%original_path%/%locale%.json
