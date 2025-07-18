@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "croptopia_additions",
+  "version": "2.0.0",
+  "name": "Croptopia Additions",
+  "authors": [
+    "Numerosity, MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Academic Free License v3.0",
+  "icon": "assets/croptopia_additions/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.croptopiaadditions.CroptopiaAdditionsMod"
+    ],
+    "client": [
+      "net.mcreator.croptopiaadditions.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  },
+  "mixins": [
+    "croptopia_additions.mixins.json"
+  ]
+}
