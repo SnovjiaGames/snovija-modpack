@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "glitchcore",
+  "version": "0.0.1.1",
+  "name": "GlitchCore",
+  "description": "A library mod aimed at abstracting mod loaders and providing various utilities for our mods.",
+  "authors": [
+    "Adubbz"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/glitchcore",
+    "sources": "https://github.com/Glitchfiend/GlitchCore"
+  },
+  "license": "All Rights Reserved",
+  "icon": "glitchcore_icon_small.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "glitchcore.fabric.core.GlitchCoreFabric"
+    ],
+    "client": [
+      "glitchcore.fabric.core.GlitchCoreFabricClient"
+    ]
+  },
+  "mixins": [
+    "glitchcore.mixins.json",
+    "glitchcore.fabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": "1.20.1",
+    "java": "\u003e\u003d17"
+  },
+  "accessWidener": "glitchcore.accesswidener",
+  "custom": {
+    "modmenu": {
+      "badges": [
+        "library"
+      ],
+      "links": {
+        "modmenu.discord": "https://discord.gg/GyyzU6T"
+      }
+    }
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/toml-3.6.7.jar"
+    },
+    {
+      "file": "META-INF/jars/core-3.6.7.jar"
+    },
+    {
+      "file": "META-INF/jars/typetools-0.6.3.jar"
+    }
+  ]
+}
