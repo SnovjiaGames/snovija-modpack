@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "forgeconfigapiport",
+  "version": "8.0.2",
+
+  "name": "Forge Config API Port",
+  "description": "Forge's whole config system provided to the Fabric ecosystem. Designed for a multiloader architecture.",
+
+  "authors": [
+    "Fuzs"
+  ],
+  
+  "contact": {
+    "homepage": "https://github.com/Fuzss/forgeconfigapiport",
+    "issues": "https://github.com/Fuzss/forgeconfigapiport/issues",
+    "sources": "https://github.com/Fuzss/forgeconfigapiport"
+  },
+
+  "license": "MPL-2.0",
+  "icon": "mod_logo.png",
+
+  "environment": "*",
+
+  "entrypoints": {
+    "main": [
+      "fuzs.forgeconfigapiport.impl.ForgeConfigAPIPortFabric"
+    ],
+    "client": [
+      "fuzs.forgeconfigapiport.impl.client.ForgeConfigAPIPortFabricClient"
+    ]
+  },
+
+  "mixins": [
+    "forgeconfigapiport.common.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric-api": ">=0.83.0",
+    "minecraft": "1.20.1",
+    "java": ">=17"
+  },
+
+  "custom": {
+    "modmenu": {
+      "badges": [
+        "library"
+      ]
+    }
+  }
+}
