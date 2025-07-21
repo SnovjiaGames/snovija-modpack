@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "seasonsdelightrefabcompat",
+  "version": "1.0-1.20.1-2.2.0+refabricated",
+  "name": "Fabric Seasons: Delight Refabricated Compat",
+  "description": "Farmer's Delight Refabricated compatibility for Fabric Seasons",
+  "authors": [
+    "D4rkness_King",
+    "sazulo"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/project/seasons-delight-refab-compat",
+    "sources": "https://github.com/sazulo/fabric-seasons-delight-refabricated-compat",
+    "issues": "https://github.com/sazulo/fabric-seasons-delight-refabricated-compat/issues"
+  },
+  "license": "Mozilla Public License 2.0",
+  "icon": "assets/seasonsdelightcompat/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.sazulo.compat.delightrefab.seasons.FabricSeasonsDelightRefabCompat"
+    ]
+  },
+  "mixins": [
+    "seasonsdelightrefabcompat.mixins.json"
+  ],
+  "depends": {
+    "seasons": ">=2.4.2-BETA",
+    "farmersdelight": ">=1.20.1-2.2.0+refabricated"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {},
+      "parent": {
+        "id": "seasons"
+      }
+    }
+  }
+}
