@@ -1,0 +1,24 @@
+{
+  "tooltip.seasons.spring": "Вясна",
+  "tooltip.seasons.summer": "Лета",
+  "tooltip.seasons.fall": "Восень",
+  "tooltip.seasons.winter": "Зіма",
+  "tooltip.seasons.faster_grow": "Хутчэй расце ў гэтым сезоне",
+  "tooltip.seasons.normal_grow": "Расце звычайна ў гэтым сезоне",
+  "tooltip.seasons.slowed_grow": "Павольней расце ў гэтым сезоне",
+  "tooltip.seasons.not_grow": "Не расце ў гэтым сезоне",
+  "tooltip.seasons.show_more": "Націсні %s, каб пабачыць больш",
+  "tooltip.seasons.season_delimitator": ": ",
+  "tooltip.seasons.season_speed": "%s%s%s%% хуткасці",
+  "tooltip.seasons.combined_grow": "%s (%s%%)",
+
+  "chat.seasons.mod_installed": "Здаецца, у цябе ўсталяваны %s!",
+  "chat.seasons.compatibility": "Атрымай поўную сумяшчальнасць з Fabric Seasons, усталяваўшы дадатак.",
+  "chat.seasons.mod_not_installed": "Здаецца, у цябе не ўсталяваны %s!",
+  "chat.seasons.extras": "Атрымай дадатковыя прадметы і блокі для палягчэння прыгод, усталяваўшы дадатак.",
+  "chat.seasons.available_at": "Даступна на: ",
+  "chat.seasons.show_once": "Гэта паведамленне пакажацца толькі адзін раз.",
+
+  "commands.seasons.query_1": "Бягучы сезон — %s.",
+  "commands.seasons.query_2": "Засталося %s дзён (%s тактаў) да %s."
+}
