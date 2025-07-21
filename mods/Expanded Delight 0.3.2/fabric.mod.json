@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "expandeddelight",
+  "version": "0.3.2",
+  "name": "Expanded Delight",
+  "description": "An addon mod for Farmer\u0027s Delight that adds many more crops and functionality to the base mod.",
+  "authors": [
+    "ianm1647"
+  ],
+  "contact": {
+    "sources": "https://github.com/ianm1647/expandeddelight",
+    "issues": "https://github.com/ianm1647/expandeddelight/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/expandeddelight/logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.ianm1647.expandeddelight.ExpandedDelight"
+    ],
+    "client": [
+      "com.ianm1647.expandeddelight.ExpandedDelightClient"
+    ],
+    "fabric-datagen": [
+      "com.ianm1647.expandeddelight.ExpandedDelightDataGen"
+    ],
+    "rei_client": [
+      "com.ianm1647.expandeddelight.integration.rei.ExpandedDelightREI"
+    ]
+  },
+  "depends": {
+    "fabricloader": "\u003e\u003d0.14",
+    "fabric-api": "*",
+    "minecraft": "~1.20",
+    "farmersdelight": "*"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/omega-config-base-1.4.0+1.20.1.jar"
+    },
+    {
+      "file": "META-INF/jars/Fabric-ASM-v2.3.jar"
+    }
+  ]
+}
