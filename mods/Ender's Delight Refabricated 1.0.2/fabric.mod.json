@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "endersdelight",
+	"version": "1.20.1-1.0.2.refabricated",
+	"name": "Ender's Delight Refabricated",
+	"description": "An addon for Farmer's Delight based around adding culinary content to the end!",
+	"authors": [
+		"Axedgaming",
+		"Furti Two"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/endersdelight/textures/other/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.axedgaming.EndersDelight"
+		],
+		"client": [
+			"com.axedgaming.client.EndersDelightClient"
+		],
+		"jei_mod_plugin": [
+			"com.axedgaming.common.compat.JEIPlugin"
+		]
+	},
+	"mixins": [
+		"endersdelight.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"farmersdelight": ">=1.20.1-2.1.4"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
