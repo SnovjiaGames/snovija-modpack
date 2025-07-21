@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "indium",
+	"version": "1.0.36+mc1.20.1",
+	"name": "Indium",
+	"description": "Sodium addon providing support for the Fabric Rendering API, based on Indigo",
+	"authors": [
+		"comp500"
+	],
+	"contact": {
+		"sources": "https://github.com/comp500/Indium",
+		"homepage": "https://modrinth.com/mod/indium",
+		"issues": "https://github.com/comp500/Indium/issues"
+	},
+	"license": "Apache-2.0",
+	"icon": "assets/indium/icon.png",
+	"environment": "client",
+	"custom": {
+		"fabric-renderer-api-v1:contains_renderer": true
+	},
+	"entrypoints": {
+		"client": [
+			"link.infra.indium.Indium"
+		]
+	},
+	"mixins": [
+		"indium.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.8.0",
+		"minecraft": ["1.20.1", "1.20.5", "1.20.6"],
+		"sodium": "~0.5.11",
+		"fabric-renderer-api-v1": ">=3.2.0",
+		"fabric-resource-loader-v0": ">=0.4.0"
+	}
+}
