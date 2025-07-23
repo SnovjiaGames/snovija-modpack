@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "id": "libjf",
+  "name": "LibJF",
+  "version": "3.12.5",
+  "description": "Library mod by JFronny",
+  "authors": [
+    "JFronny"
+  ],
+  "contact": {
+    "email": "projects.contact@frohnmeyer-wds.de",
+    "homepage": "https://jfronny.gitlab.io",
+    "issues": "https://git.frohnmeyer-wds.de/JfMods/LibJF/issues",
+    "sources": "https://git.frohnmeyer-wds.de/JfMods/LibJF"
+  },
+  "license": "MIT",
+  "icon": "assets/libjf/icon.png",
+  "environment": "*",
+  "entrypoints": {},
+  "depends": {
+    "fabricloader": "\u003e\u003d0.12.0",
+    "minecraft": "*",
+    "fabric-resource-loader-v0": "*",
+    "fabric-lifecycle-events-v1": "*",
+    "fabric-command-api-v2": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "badges": [
+        "library"
+      ]
+    }
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/libjf-base-unspecified.jar"
+    },
+    {
+      "file": "META-INF/jars/libjf-config-commands-v1-unspecified.jar"
+    },
+    {
+      "file": "META-INF/jars/libjf-config-core-v1-unspecified.jar"
+    },
+    {
+      "file": "META-INF/jars/libjf-config-reflect-v1-unspecified.jar"
+    },
+    {
+      "file": "META-INF/jars/libjf-config-ui-tiny-v1-unspecified.jar"
+    },
+    {
+      "file": "META-INF/jars/libjf-data-manipulation-v0-unspecified.jar"
+    },
+    {
+      "file": "META-INF/jars/libjf-data-v0-unspecified.jar"
+    },
+    {
+      "file": "META-INF/jars/libjf-translate-v1-unspecified.jar"
+    },
+    {
+      "file": "META-INF/jars/libjf-unsafe-v0-unspecified.jar"
+    },
+    {
+      "file": "META-INF/jars/libjf-web-v0-unspecified.jar"
+    }
+  ]
+}
