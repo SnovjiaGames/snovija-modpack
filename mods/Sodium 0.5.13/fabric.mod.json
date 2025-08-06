@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "id": "sodium",
+  "version": "0.5.13+mc1.20.1",
+  "name": "Sodium",
+  "description": "Sodium is a powerful rendering engine for Minecraft which greatly improves frame rates and micro-stutter, while fixing many graphical issues",
+  "authors": [
+    {
+      "name": "JellySquid (jellysquid3)",
+      "contact": {
+        "email": "jellysquid@pm.me",
+        "homepage": "https://jellysquid.me"
+      }
+    }
+  ],
+  "contributors": [
+    "IMS212",
+    "bytzo",
+    "PepperCode1",
+    "FlashyReese",
+    "altrisi",
+    "Grayray75",
+    "Madis0",
+    "Johni0702",
+    "comp500",
+    "coderbot16",
+    "Moulberry",
+    "MCRcortex",
+    "Altirix",
+    "embeddedt",
+    "pajicadvance",
+    "Kroppeb",
+    "douira",
+    "burgerindividual",
+    "TwistedZero",
+    "Leo40Git",
+    "haykam821",
+    "muzikbike"
+  ],
+  "contact": {
+    "homepage": "https://github.com/CaffeineMC/sodium-fabric",
+    "sources": "https://github.com/CaffeineMC/sodium-fabric",
+    "issues": "https://github.com/CaffeineMC/sodium-fabric/issues"
+  },
+  "license": "Polyform-Shield-1.0.0",
+  "icon": "assets/sodium/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.jellysquid.mods.sodium.client.SodiumClientMod"
+    ],
+    "preLaunch": [
+      "me.jellysquid.mods.sodium.client.SodiumPreLaunch"
+    ]
+  },
+  "custom": {
+    "fabric-renderer-api-v1:contains_renderer": true,
+    "modmenu": {
+      "links": {
+        "modmenu.donate": "https://caffeinemc.net/donate",
+        "modmenu.discord": "https://caffeinemc.net/discord",
+        "modmenu.github_releases": "https://github.com/CaffeineMC/sodium-fabric/releases",
+        "modmenu.kofi": "https://caffeinemc.net/donate",
+        "modmenu.modrinth": "https://modrinth.com/mod/sodium"
+      }
+    }
+  },
+  "accessWidener": "sodium.accesswidener",
+  "mixins": [
+    "sodium.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "1.20.1",
+    "fabricloader": "\u003e\u003d0.12.0",
+    "fabric-rendering-data-attachment-v1": "\u003e\u003d0.1",
+    "fabric-rendering-fluids-v1": "\u003e\u003d0.1"
+  },
+  "breaks": {
+    "optifabric": "*",
+    "canvas": "*",
+    "sodium-blendingregistry": "*",
+    "ocrenderfix_sodium": "*",
+    "betterfpsdist": "\u003c1.20.1-3.8",
+    "bobby": "\u003c5.0.1",
+    "cauldron_dyeing": "\u003c1.0.11",
+    "cullleaves": "\u003c\u003d3.1.0",
+    "custom_hud": "\u003c\u003d3.1.0+1.20",
+    "dashloader": "\u003c5.0.0-beta.2",
+    "farsight": "\u003c1.20.1-4.0",
+    "fluidvoidfading": "\u003c1.1.2",
+    "iceberg": "\u003c1.1.14",
+    "iris": "\u003c1.7.6",
+    "immersive_portals": "\u003c\u003d5.1.3",
+    "indium": "\u003c1.0.36",
+    "notenoughcrashes": "\u003c4.4.6",
+    "noxesium": "\u003c1.0.2",
+    "rayon": "\u003c\u003d1.7.2+1.20.1",
+    "reeses-sodium-options": "\u003c1.7.1",
+    "sodium-extra": "\u003c0.5.4",
+    "sspb": "\u003c3.2.0",
+    "supplementaries": "\u003c\u003d1.20-2.7.32"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/fabric-api-base-0.4.31+1802ada577.jar"
+    },
+    {
+      "file": "META-INF/jars/fabric-block-view-api-v2-1.0.1+1802ada577.jar"
+    },
+    {
+      "file": "META-INF/jars/fabric-rendering-data-attachment-v1-0.3.37+92a0d36777.jar"
+    },
+    {
+      "file": "META-INF/jars/fabric-rendering-fluids-v1-3.0.28+1802ada577.jar"
+    },
+    {
+      "file": "META-INF/jars/fabric-resource-loader-v0-0.11.11+fb82e9d777.jar"
+    }
+  ]
+}

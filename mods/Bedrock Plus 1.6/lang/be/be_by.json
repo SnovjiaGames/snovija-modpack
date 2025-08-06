@@ -1,27 +1,22 @@
 {
   "itemGroup.bedrockplus.impure_bedrock": "Bedrock Plus Mod",
-
-  "item.bedrockplus.impure_bedrock_ingot": "Impure bedrock ingot",
-  "item.bedrockplus.impure_bedrock_scrap" : "Impure bedrock scrap",
-  "item.bedrockplus.impure_bedrock_upgrade_smithing_template": "Impure bedrock upgrade smithing template",
-
-  "upgrade.bedrockplus.impure_bedrock_upgrade": "Impure bedrock Upgrade",
-  "item.bedrockplus.smithing_template.impure_bedrock_upgrade.applies_to": "Netherite Equipment",
-  "item.bedrockplus.smithing_template.impure_bedrock_upgrade.ingredients": "Impure bedrock Ingot",
-  "item.bedrockplus.smithing_template.impure_bedrock_upgrade.base_slot_description": "Add Netherite armor, weapon, or tool",
-  "item.bedrockplus.smithing_template.impure_bedrock_upgrade.additions_slot_description": "Add Impure bedrock Ingot",
-
-  "item.bedrockplus.impurebedrock_helmet" : "Impure bedrock helmet",
-  "item.bedrockplus.impurebedrock_chestplate" : "Impure bedrock chestplate",
-  "item.bedrockplus.impurebedrock_leggings" : "Impure bedrock leggings",
-  "item.bedrockplus.impurebedrock_boots" : "Impure bedrock boots",
-
-  "item.bedrockplus.impurebedrock_sword" : "Impure bedrock sword",
-  "item.bedrockplus.impurebedrock_axe" : "Impure bedrock axe",
-  "item.bedrockplus.impurebedrock_hoe" : "Impure bedrock hoe",
-  "item.bedrockplus.impurebedrock_shovel" : "Impure bedrock shovel",
-  "item.bedrockplus.impurebedrock_pickaxe" : "Impure bedrock pickaxe",
-
-  "block.bedrockplus.impure_bedrock": "Bedrock impure deepslate",
-  "block.bedrockplus.impure_bedrock_block" : "Block of impure bedrock"
+  "item.bedrockplus.impure_bedrock_ingot": "Злітак нячыстай карэннай пароды",
+  "item.bedrockplus.impure_bedrock_scrap": "Абломак нячыстай карэннай пароды",
+  "item.bedrockplus.impure_bedrock_upgrade_smithing_template": "Кавальскі шаблон паляпшэння нячыстай карэннай пародай",
+  "upgrade.bedrockplus.impure_bedrock_upgrade": "Паляпшэнне нячыстай карэннай пародай",
+  "item.bedrockplus.smithing_template.impure_bedrock_upgrade.applies_to": "Нэдарытавыя прылады",
+  "item.bedrockplus.smithing_template.impure_bedrock_upgrade.ingredients": "Злітак нячыстай карэннай пароды",
+  "item.bedrockplus.smithing_template.impure_bedrock_upgrade.base_slot_description": "Дадайце нэдарытавую браню, зброю або інструмент",
+  "item.bedrockplus.smithing_template.impure_bedrock_upgrade.additions_slot_description": "Дадайце злітак нячыстай карэннай пароды",
+  "item.bedrockplus.impurebedrock_helmet": "Шлем з нячыстай карэннай пароды",
+  "item.bedrockplus.impurebedrock_chestplate": "Кіраса з нячыстай карэннай пароды",
+  "item.bedrockplus.impurebedrock_leggings": "Понажы з нячыстай карэннай пароды",
+  "item.bedrockplus.impurebedrock_boots": "Боты з нячыстай карэннай пароды",
+  "item.bedrockplus.impurebedrock_sword": "Меч з нячыстай карэннай пароды",
+  "item.bedrockplus.impurebedrock_axe": "Сякера з нячыстай карэннай пароды",
+  "item.bedrockplus.impurebedrock_hoe": "Матыка з нячыстай карэннай пароды",
+  "item.bedrockplus.impurebedrock_shovel": "Рыдлёўка з нячыстай карэннай пароды",
+  "item.bedrockplus.impurebedrock_pickaxe": "Кірка з нячыстай карэннай пароды",
+  "block.bedrockplus.impure_bedrock": "Нячыстая карэнная парода глыбінь",
+  "block.bedrockplus.impure_bedrock_block": "Блок нячыстай карэннай пароды"
 }

@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "lolmbv",
+	"version": "1.0.4",
+	"name": "More Bookshelf Variants",
+	"description": "Adding the rest of the Bookshelf variants into the game!
+More types to fill your builds with a colourful reading collection",
+	"authors": [
+		"LieOnLion"
+	],
+	"contact": {
+		"homepage": "https://lieonlion.github.io/LieOnLion/",
+		"sources": "https://github.com/LieOnLion/More-Bookshelf-Variants",
+		"issues": "https://github.com/LieOnLion/More-Bookshelf-Variants/issues"
+	},
+	"license": "MIT",
+	"icon": "logo.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "io.github.lieonlion.lolmbv.MoreBookshelfVariants"
+		]
+	},
+	"mixins": [
+		"lolmbv.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.20",
+		"java": ">=17",
+		"fabric-api": "*",
+		"quad": ">=1.2.3"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.youtube": "https://www.youtube.com/@lieonlion?sub_confirmation=1",
+				"modmenu.discord": "https://discord.com/invite/sA42pp6cuX"
+			}
+		}
+	}
+}

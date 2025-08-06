@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "betterfortresses",
+  "version": "1.20-Fabric-2.0.6",
+  "name": "YUNG\u0027s Better Nether Fortresses",
+  "description": "A complete redesign of Minecraft\u0027s Nether Fortresses!",
+  "authors": [
+    "YUNGNICKYOUNG",
+    "Acarii"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-nether-fortresses-fabric",
+    "sources": "https://github.com/yungnickyoung/YUNGs-Better-Fortresses",
+    "issues": "https://github.com/yungnickyoung/YUNGs-Better-Fortresses/issues",
+    "discord": "discord.gg/rns3beq"
+  },
+  "license": "LGPLv3",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.yungnickyoung.minecraft.betterfortresses.BetterFortressesFabric"
+    ],
+    "modmenu": [
+      "com.yungnickyoung.minecraft.betterfortresses.config.gui.BNFModMenu"
+    ]
+  },
+  "mixins": [
+    "betterfortresses.mixins.json",
+    "betterfortresses_fabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "\u003e\u003d0.14.21",
+    "fabric": "\u003e\u003d0.83.0",
+    "minecraft": "\u003e\u003d1.20",
+    "cloth-config2": "\u003e\u003d11.0.99",
+    "java": "\u003e\u003d17",
+    "yungsapi": "\u003e\u003d1.20-Fabric-4.0.1"
+  },
+  "custom": {
+    "catalogue": {
+      "icon": {
+        "image": "catalogue_icon.png"
+      },
+      "banner": "logo.png",
+      "background": "catalogue_background.png"
+    }
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/reflections-0.10.2.jar"
+    }
+  ]
+}

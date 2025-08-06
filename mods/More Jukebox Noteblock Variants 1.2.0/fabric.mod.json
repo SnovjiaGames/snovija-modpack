@@ -1,0 +1,43 @@
+{
+	"schemaVersion": 1,
+	"id": "quad-lolmjnv",
+	"version": "1.2.0",
+	"name": "More Jukebox/Noteblock Variants",
+	"description": "Adding Jukebox and Noteblock variants to Minecraft",
+	"authors": [
+		"pnku"
+	],
+	"contact": {
+		"email": "contact@pnku.de",
+		"homepage": "https://www.pnku.de/",
+		"sources": "https://github.com/pnk2u/More-Jukebox-Noteblock-Variants",
+		"issues": "https://github.com/pnk2u/More-Jukebox-Noteblock-Variants/issues"
+	},
+	"license": "MIT",
+	"icon": "logo.png",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-datagen": [
+			"de.pnku.mjnv.MoreJukeboxNoteblockVariantsDatagen"
+		],
+		"main": [
+			"de.pnku.mjnv.MoreJukeboxNoteblockVariants"
+		]
+	},
+	"mixins": [
+		"lolmjnv.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": ">=1.20.0 <1.21.0",
+		"java": ">=17",
+		"fabric-api": ">=0.92.0"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.discord": "https://discord.com/invite/sA42pp6cuX"
+			}
+		}
+	}
+}

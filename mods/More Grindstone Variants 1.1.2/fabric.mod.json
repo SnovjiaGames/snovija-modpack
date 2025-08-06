@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "lolmgv",
+	"version": "1.1.2",
+	"name": "More Grindstone Variants",
+	"description": "Adding grindstone variants to Minecraft",
+	"authors": [
+		"pnku, LieOnLion"
+	],
+	"contact": {
+		"homepage": "https://pnku.de",
+		"contact": "contatct@pnku.de",
+		"sources": "https://github.com/pnk2u/More-Grindstone-Variants",
+		"issues": "https://github.com/pnk2u/More-Grindstone-Variants/issues"
+	},
+	"license": "MIT",
+	"icon": "logo.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"de.pnku.mgv.MoreGrindstoneVariants"
+		]
+	},
+	"mixins": [
+		"lolmgv.mixins.json"
+	],
+	"accessWidener": "lolmgv.accesswidener" ,
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": ">=0.92.2"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.youtube": "https://www.youtube.com/@lieonlion?sub_confirmation=1",
+				"modmenu.discord": "https://discord.com/invite/sA42pp6cuX"
+			}
+		}
+	}
+}

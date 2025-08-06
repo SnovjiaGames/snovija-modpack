@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "lolmcbv",
+	"version": "1.7.3",
+	"name": "More Chiseled Bookshelf Variants",
+	"description": "Adding chiseled bookshelf variants to Minecraft",
+	"authors": [
+		"pnku, LieOnLion"
+	],
+	"contact": {
+		"email": "contact@pnku.de",
+		"homepage": "https://www.pnku.de",
+		"sources": "https://github.com/pnk2u/More-Chiseled-Bookshelf-Variants",
+		"issues": "https://github.com/pnk2u/More-Chiseled-Bookshelf-Variants/issues"
+	},
+	"license": "MIT",
+	"icon": "logo.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "de.pnku.mcbv.MoreChiseledBookshelfVariants"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": ">1.20.0 <1.21.0",
+		"java": ">=17",
+		"fabric-api": ">=0.92.2"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.discord": "https://discord.com/invite/sA42pp6cuX"
+			}
+		}
+	}
+}

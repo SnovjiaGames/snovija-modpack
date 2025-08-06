@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "id": "thinair",
+  "version": "8.1.5",
+  "name": "Thin Air",
+  "description": "The air is not always breathable in the depths of the earth and other dimensions.",
+  "authors": [
+    "Petrak, AlphaMode, Fuzs"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Fuzss/thinair",
+    "issues": "https://github.com/Fuzss/thinair/issues",
+    "sources": "https://github.com/Fuzss/thinair"
+  },
+  "license": "MIT",
+  "icon": "mod_logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "fuzs.thinair.ThinAirFabric"
+    ],
+    "client": [
+      "fuzs.thinair.client.ThinAirFabricClient"
+    ],
+    "cardinal-components": [
+      "fuzs.puzzleslib.api.capability.v2.initializer.ChunkComponentInitializerImpl"
+    ]
+  },
+  "mixins": [
+    "thinair.common.mixins.json",
+    "thinair.fabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "\u003e\u003d0.14.21",
+    "fabric-api": "\u003e\u003d0.86.0",
+    "puzzleslib": "\u003e\u003d8.1.14",
+    "cardinal-components-base": "*",
+    "cardinal-components-chunk": "*",
+    "minecraft": "1.20.1",
+    "java": "\u003e\u003d17"
+  },
+  "recommends": {
+    "trinkets": "*"
+  },
+  "custom": {
+    "cardinal-components": [
+      "thinair:air_bubble_positions"
+    ]
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/cardinal-components-base-5.2.2.jar"
+    },
+    {
+      "file": "META-INF/jars/cardinal-components-chunk-5.2.2.jar"
+    }
+  ]
+}

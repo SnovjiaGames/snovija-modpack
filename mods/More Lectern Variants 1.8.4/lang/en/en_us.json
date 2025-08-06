@@ -1,0 +1,13 @@
+{
+  "block.lolmlv.spruce_lectern": "Spruce Lectern" ,
+  "block.lolmlv.birch_lectern": "Birch Lectern" ,
+  "block.lolmlv.jungle_lectern": "Jungle Lectern" ,
+  "block.lolmlv.acacia_lectern": "Acacia Lectern" ,
+  "block.lolmlv.dark_oak_lectern": "Dark Oak Lectern" ,
+  "block.lolmlv.mangrove_lectern": "Mangrove Lectern" ,
+  "block.lolmlv.cherry_lectern": "Cherry Lectern" ,
+  "block.lolmlv.bamboo_lectern": "Bamboo Lectern" ,
+  "block.lolmlv.crimson_lectern": "Crimson Lectern" ,
+  "block.lolmlv.warped_lectern": "Warped Lectern",
+  "resourcePack.lolmlv.mlecternv-quad-compat.description": "Fixes a crafting recipe incompatibility with Quad."
+}

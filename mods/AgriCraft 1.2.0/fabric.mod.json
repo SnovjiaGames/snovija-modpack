@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "agricraft",
+	"version": "1.2.0",
+	"name": "AgriCraft",
+	"description": "Agricultural farming extended",
+	"authors": [
+		"InfinityRaider",
+		"Ketheroth"
+	],
+	"contact": {
+		"website": "https://www.curseforge.com/minecraft/mc-mods/uncrafter",
+		"repo": "https://github.com/Ketheroth/Uncrafter",
+		"issues": "https://github.com/Ketheroth/Uncrafter/issues"
+	},
+	"license": "MIT",
+	"icon": "logo.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.ketheroth.uncrafter.fabric.UncrafterFabric"
+		],
+		"client": [
+			"com.ketheroth.uncrafter.client.UncrafterFabricClient"
+		],
+		"modmenu": [
+			"com.ketheroth.uncrafter.common.config.fabric.FabricMenuConfig"
+		]
+	},
+	"depends": {
+		"fabric": "*",
+		"minecraft": ">=1.20",
+		"resourcefullib": ">=2.1.2",
+		"resourcefulconfig": ">=2.0.0"
+	}
+}

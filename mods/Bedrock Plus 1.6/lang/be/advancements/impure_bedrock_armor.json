@@ -1,8 +1,10 @@
 {
   "display": {
-    "icon": {"item": "bedrockplus:impurebedrock_helmet"},
-    "title": "You feel powerful",
-    "description": "Wear a impure bedrock armor",
+    "icon": {
+      "item": "bedrockplus:impurebedrock_helmet"
+    },
+    "title": "Вы адчуваеце моц",
+    "description": "Апраніце браню з нячыстай карэннай пароды",
     "frame": "challenge",
     "show_toast": true,
     "annouce_to_chat": true

@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "minecraft-cursor",
+  "version": "3.9.2+1.20.1",
+  "name": "Minecraft Cursor",
+  "description": "Configurable Cursor for Minecraft.",
+  "authors": [
+    "fishstiz"
+  ],
+  "contributors": [
+    "demorogabrtz, Lucanoria, mpustovoi, ZeyMer1309"
+  ],
+  "contact": {
+    "sources": "https://github.com/fishstiz/minecraft-cursor",
+    "issues": "https://github.com/fishstiz/minecraft-cursor/issues",
+    "homepage": "https://fishstiz.github.io/minecraft-cursor-wiki/"
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "io.github.fishstiz.minecraftcursor.MinecraftCursorFabric"
+    ],
+    "modmenu": [
+      "io.github.fishstiz.minecraftcursor.compat.modmenu.MinecraftCursorModMenu"
+    ],
+    "minecraft-cursor": [
+      "io.github.fishstiz.minecraftcursor.impl.MinecraftCursorFabricInitializer"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "minecraft-cursor.mixins.json",
+      "environment": "client"
+    },
+    {
+      "config": "minecraft-cursor.fabric.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": "\u003e\u003d0.16.9",
+    "minecraft": "1.20.1",
+    "java": "\u003e\u003d17",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.wiki": "https://fishstiz.github.io/minecraft-cursor-wiki/"
+      }
+    }
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/minecraft-cursor-fabric-api-3.9.2+1.20.1.jar"
+    }
+  ]
+}

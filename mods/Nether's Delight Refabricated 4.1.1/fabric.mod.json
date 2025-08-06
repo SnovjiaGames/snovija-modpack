@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "nethersdelight",
+  "version": "1.20.1-4.1.1",
+  "name": "Nether's Delight Refabricated",
+  "description": "A nether expansion for the Farmer's Delight mod!",
+  "authors": [
+    "RaymondBlaze"
+  ],
+  "contributors": [
+    "Umpaz, SoyTutta, and Sammy;"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/nethers-delight-refabricated",
+    "sources": "https://github.com/DragonsPlusMinecraft/NethersDelightRefabricated"
+  },
+  "license": "LGPL v2.1",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "umpaz.nethersdelight.NethersDelight"
+    ],
+    "client": [
+      "umpaz.nethersdelight.NethersDelightClient"
+    ],
+    "jei_mod_plugin": [
+      "umpaz.nethersdelight.integration.jei.NDJEIPlugin"
+    ],
+    "rei_client": [
+      "umpaz.nethersdelight.integration.rei.NDREIClientPlugin"
+    ],
+    "emi": [
+      "umpaz.nethersdelight.integration.emi.NDEMIPlugin"
+    ]
+  },
+  "mixins": [
+    "nethersdelight.mixins.json"
+  ],
+  "accessWidener": "nethersdelight.accesswidener",
+  "depends": {
+    "fabric": "*",
+    "farmersdelight": "*",
+    "minecraft": ">=1.20 <1.20.2"
+  }
+}

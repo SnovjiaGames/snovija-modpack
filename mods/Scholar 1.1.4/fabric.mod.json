@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "scholar",
+  "version": "1.1.4",
+  "name": "Scholar",
+  "description": "Book improvements: two-page view, lectern editing, colored books, QOL-features",
+  "authors": [
+    "mortuusars"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/scholar",
+    "sources": "https://github.com/mortuusars/Scholar"
+  },
+  "license": "GNU GPLv3",
+  "icon": "logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.mortuusars.scholar.fabric.ScholarFabric"
+    ],
+    "client": [
+      "io.github.mortuusars.scholar.fabric.ScholarFabricClient"
+    ],
+    "jei_mod_plugin": [
+      "io.github.mortuusars.scholar.integration.jei.ScholarJeiPlugin"
+    ]
+  },
+  "mixins": [
+    "scholar-common.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "\u003d1.20.1",
+    "fabric": "*",
+    "fabric-api": "\u003e\u003d0.88.1",
+    "forgeconfigapiport": "\u003e\u003d8.0.0"
+  },
+  "accessWidener": "scholar.accesswidener",
+  "jars": [
+    {
+      "file": "META-INF/jars/mixinextras-fabric-0.4.1.jar"
+    }
+  ]
+}

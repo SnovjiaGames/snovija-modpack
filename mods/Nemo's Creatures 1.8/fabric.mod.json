@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "nemos-creatures",
+	"version": "1.8-1.20.1",
+	"name": "Nemo's Creatures",
+	"description": "This mod brings new biome specific mobs to Minecraft!",
+	"authors": [
+		"NemoNotFound"
+	],
+	"contact": {
+		"homepage": "https://nemonotfound.com/"
+	},
+	"license": "MIT",
+	"icon": "assets/nemos-creatures/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.nemonotfound.NemosCreatures"
+		],
+		"client": [
+			"com.nemonotfound.NemosCreaturesClient"
+		]
+	},
+	"mixins": [
+		"nemos-creatures.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": [
+			"~1.20.1"
+		],
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	},
+	"accessWidener": "nemos-creatures.accesswidener"
+}

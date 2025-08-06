@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "zoomify",
+  "version": "2.14.4+1.20.1",
+  "name": "Zoomify",
+  "description": "A zoom mod with infinite customizability.",
+  "authors": [
+    "isXander"
+  ],
+  "contact": {
+    "homepage": "https://isxander.dev",
+    "issues": "https://github.com/isXander/Zoomify/issues",
+    "sources": "https://github.com/isXander/Zoomify"
+  },
+  "icon": "assets/zoomify/zoomify.png",
+  "license": "LGPLv3",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      {
+        "adapter": "kotlin",
+        "value": "dev.isxander.zoomify.Zoomify"
+      }
+    ],
+    "modmenu": [
+      {
+        "adapter": "kotlin",
+        "value": "dev.isxander.zoomify.integrations.ModMenuIntegration"
+      }
+    ],
+    "controlify": [
+      {
+        "adapter": "kotlin",
+        "value": "dev.isxander.zoomify.integrations.ControlifyIntegration"
+      }
+    ]
+  },
+  "mixins": [
+    "zoomify.mixins.json"
+  ],
+  "depends": {
+    "fabric-api": "*",
+    "fabricloader": "\u003e\u003d0.14.22",
+    "fabric-language-kotlin": "\u003e\u003d1.11.0+kotlin.2.0.0",
+    "minecraft": "\u003e\u003d1.20 \u003c\u003d1.20.1",
+    "java": "\u003e\u003d21",
+    "yet_another_config_lib_v3": "\u003e\u003d3.5.0"
+  },
+  "suggests": {
+    "modmenu": "*"
+  },
+  "breaks": {
+    "optifabric": "*",
+    "controlify": "\u003c2.0.0-beta.9"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/ktoml-core-jvm-0.5.2.jar"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "lolmfv",
+	"version": "1.0.2",
+	"name": "More Furnace Variants",
+	"description": "Adding more Furnace variants from different stones
+Cook with more style.",
+	"authors": [
+		"LieOnLion"
+	],
+	"contact": {
+		"homepage": "https://lieonlion.github.io/LieOnLion/",
+		"sources": "https://github.com/LieOnLion/More-Furnace-Variants",
+		"issues": "https://github.com/LieOnLion/More-Furnace-Variants/issues"
+	},
+	"license": "MIT",
+	"icon": "logo.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.lieonlion.lolmfv.MoreFurnaceVariants"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"minecraft": "~1.20",
+		"java": ">=17",
+		"fabric-api": "*",
+		"quad": ">=1.2.0"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.youtube": "https://www.youtube.com/@lieonlion?sub_confirmation=1",
+				"modmenu.discord": "https://discord.com/invite/sA42pp6cuX"
+			}
+		}
+	}
+}

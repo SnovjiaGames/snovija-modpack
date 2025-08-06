@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "id": "mythicmetals",
+  "version": "0.19.10+1.20.1",
+  "name": "Mythic Metals",
+  "description": "Adds many new ores, tools and armorsets to the game. Currently in Beta!",
+  "authors": [
+    "Noaaan"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/mythicmetals",
+    "sources": "https://github.com/Noaaan/MythicMetals",
+    "issues": "https://github.com/Noaaan/MythicMetals/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/mythicmetals/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "nourl.mythicmetals.MythicMetals"
+    ],
+    "preLaunch": [
+      "com.llamalad7.mixinextras.MixinExtrasBootstrap::init"
+    ],
+    "client": [
+      "nourl.mythicmetals.MythicMetalsClient"
+    ],
+    "fabric-datagen": [
+      "nourl.mythicmetals.data.MythicMetalsData"
+    ],
+    "rei_client": [
+      "nourl.mythicmetals.compat.MythicMetalsREIClientPlugin"
+    ],
+    "emi": [
+      "nourl.mythicmetals.compat.MythicMetalsEMIPlugin"
+    ],
+    "cardinal-components-entity": [
+      "nourl.mythicmetals.MythicMetals"
+    ]
+  },
+  "mixins": [
+    "mythicmetals.mixins.json"
+  ],
+  "accessWidener": "mythicmetals.accessWidener",
+  "depends": {
+    "fabricloader": "\u003e\u003d0.14.0",
+    "alloy_forgery": "\u003e\u003d2.1.0",
+    "fabric": "\u003e\u003d0.87.0",
+    "minecraft": "1.20.x",
+    "java": "\u003e\u003d17",
+    "owo": "\u003e\u003d0.11.2",
+    "cardinal-components-entity": "*"
+  },
+  "custom": {
+    "cardinal-components": [
+      "mythicmetals:carmot_shield",
+      "mythicmetals:combustion_cooldown"
+    ]
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/owo-sentinel-0.11.2+1.20.jar"
+    },
+    {
+      "file": "META-INF/jars/additionalentityattributes-1.7.3+1.20.0.jar"
+    },
+    {
+      "file": "META-INF/jars/reach-entity-attributes-2.4.0.jar"
+    },
+    {
+      "file": "META-INF/jars/common-protection-api-1.0.0.jar"
+    },
+    {
+      "file": "META-INF/jars/mixinextras-fabric-0.2.0-beta.6.jar"
+    },
+    {
+      "file": "META-INF/jars/cardinal-components-base-5.2.1.jar"
+    },
+    {
+      "file": "META-INF/jars/cardinal-components-entity-5.2.1.jar"
+    }
+  ]
+}

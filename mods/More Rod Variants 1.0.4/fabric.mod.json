@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "mstv-mfrv",
+  "version": "1.0.4",
+  "name": "More (Fishing) Rod Variants (MStV+)",
+  "description": "This mod adds more variants of the Fishing Rod and Carrot/Warped Fungus on a Stick item.",
+  "authors": [
+    "pnku"
+  ],
+  "contact": {
+    "homepage": "https://pnku.de",
+    "email": "contact@pnku.de",
+    "sources": "https://github.com/pnk2u/More-Fishing-Rod-Variants",
+    "issues": "https://github.com/pnk2u/More-Fishing-Rod-Variants/issues"
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "de.pnku.mstv_mfrv.MoreFishingRodVariants"
+    ],
+    "client": [
+      "de.pnku.mstv_mfrv.MoreFishingRodVariantsClient"
+    ],
+    "fabric-datagen": [
+      "de.pnku.mstv_mfrv.MoreFishingRodVariantDatagen"
+    ]
+  },
+  "mixins": [
+    "mstv-mfrv.mixins.json",
+    {
+      "config": "mstv-mfrv.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": ">=1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+        "mstv-base": "*"
+	},
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.com/invite/sA42pp6cuX"
+      }
+    }
+  }
+}

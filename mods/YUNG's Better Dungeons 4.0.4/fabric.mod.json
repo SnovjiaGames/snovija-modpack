@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "betterdungeons",
+  "version": "1.20-Fabric-4.0.4",
+  "name": "YUNG\u0027s Better Dungeons",
+  "description": "A complete redesign of Minecraft\u0027s dungeons",
+  "authors": [
+    "YUNGNICKYOUNG",
+    "Acarii"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-dungeons-fabric",
+    "sources": "https://github.com/yungnickyoung/YUNGs-Better-Dungeons",
+    "issues": "https://github.com/yungnickyoung/YUNGs-Better-Dungeons/issues",
+    "discord": "discord.gg/rns3beq"
+  },
+  "license": "LGPLv3",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.yungnickyoung.minecraft.betterdungeons.BetterDungeonsFabric"
+    ],
+    "modmenu": [
+      "com.yungnickyoung.minecraft.betterdungeons.config.gui.BDModMenu"
+    ]
+  },
+  "mixins": [
+    "betterdungeons.mixins.json",
+    "betterdungeons_fabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "\u003e\u003d0.14.21",
+    "fabric": "\u003e\u003d0.83.0",
+    "minecraft": "\u003e\u003d1.20",
+    "cloth-config2": "\u003e\u003d11.0.99",
+    "java": "\u003e\u003d17",
+    "yungsapi": "\u003e\u003d1.20-Fabric-4.0.1"
+  },
+  "custom": {
+    "catalogue": {
+      "icon": {
+        "image": "catalogue_icon.png"
+      },
+      "banner": "logo.png",
+      "background": "catalogue_background.png"
+    }
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/reflections-0.10.2.jar"
+    }
+  ]
+}

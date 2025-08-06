@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "trashcans",
+  "version": "1.0.18",
+  "name": "Trash Cans",
+  "description": "Trash Cans adds Trash Cans which can be used to void items, liquids and energy!",
+  "authors": [
+    "SuperMartijn642"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/trash-cans",
+    "sources": "https://github.com/SuperMartijn642/TrashCans"
+  },
+  "license": "All rights reserved",
+  "icon": "trashcans.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.supermartijn642.trashcans.TrashCans"
+    ],
+    "client": [
+      "com.supermartijn642.trashcans.TrashCansClient"
+    ],
+    "jei_mod_plugin": [
+      "com.supermartijn642.trashcans.compat.jei.TrashCansJEIPlugin"
+    ]
+  },
+  "mixins": [
+    "trashcans.mixins.json"
+  ],
+  "accessWidener": "trashcans.accesswidener",
+  "depends": {
+    "fabricloader": "\u003e\u003d0.14.0",
+    "fabric": "*",
+    "minecraft": "\u003e\u003d1.20 \u003c1.21",
+    "java": "\u003e\u003d17",
+    "supermartijn642corelib": "\u003e\u003d1.1.0 \u003c1.2.0"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/energy-3.0.0.jar"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "worldplaytime.format": "%sг",
+  "worldplaytime.config.header": "Наладкі World Play Time",
+  "worldplaytime.config.category.general": "Агульныя",
+  "worldplaytime.config.category.world_entry": "Сусвет",
+  "worldplaytime.config.category.server_entry": "Сервер",
+  "worldplaytime.config.showServerPlayTime": "Паказваць час гульні на серверы",
+  "worldplaytime.config.serverPlayTimePosition": "Пазіцыя часу гульні на серверы",
+  "worldplaytime.config.serverPlayTimePosition.after_name": "Пасля назвы",
+  "worldplaytime.config.serverPlayTimePosition.behind_count": "За лікам",
+  "worldplaytime.config.serverPlayTimePosition.left": "Злева",
+  "worldplaytime.config.serverPlayTimePosition.right": "Справа",
+  "worldplaytime.config.serverPlayTimeColor": "Колер часу гульні на серверы",
+  "worldplaytime.config.showWorldPlayTime": "Паказваць час гульні ў сусвеце",
+  "worldplaytime.config.worldPlayTimePosition": "Пазіцыя часу гульні ў сусвеце",
+  "worldplaytime.config.worldPlayTimePosition.top_right": "Справа зверху",
+  "worldplaytime.config.worldPlayTimePosition.left": "Злева",
+  "worldplaytime.config.worldPlayTimePosition.right": "Справа",
+  "worldplaytime.config.worldPlayTimeColor": "Колер часу гульні ў сусвеце"
+}

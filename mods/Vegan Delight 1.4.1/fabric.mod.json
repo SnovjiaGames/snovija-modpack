@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "vegandelight",
+  "version": "1.4.1",
+  "name": "Vegan Delight",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "LGPL",
+  "icon": "assets/vegandelight/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.player005.vegandelightfabric.VeganDelightFabric"
+    ],
+    "client": [
+      "net.player005.vegandelightfabric.client.VeganDelightClient"
+    ]
+  },
+  "accessWidener" : "vegandelight.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "fabric": "*",
+    "farmersdelight": "*",
+    "minecraft": "1.20.1"
+  }
+}

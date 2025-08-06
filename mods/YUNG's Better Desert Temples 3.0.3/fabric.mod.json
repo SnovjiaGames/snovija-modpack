@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "betterdeserttemples",
+  "version": "1.20-Fabric-3.0.3",
+  "name": "YUNG\u0027s Better Desert Temples",
+  "description": "A complete redesign of Minecraft\u0027s desert temples!",
+  "authors": [
+    "YUNGNICKYOUNG",
+    "Tera"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-desert-temples-fabric",
+    "sources": "https://github.com/yungnickyoung/YUNGs-Better-Desert-Temples",
+    "issues": "https://github.com/yungnickyoung/YUNGs-Better-Desert-Temples/issues",
+    "discord": "discord.gg/rns3beq"
+  },
+  "license": "LGPLv3",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.yungnickyoung.minecraft.betterdeserttemples.BetterDesertTemplesFabric"
+    ],
+    "modmenu": [
+      "com.yungnickyoung.minecraft.betterdeserttemples.config.gui.BDTModMenu"
+    ]
+  },
+  "mixins": [
+    "betterdeserttemples.mixins.json",
+    "betterdeserttemples_fabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "\u003e\u003d0.14.21",
+    "fabric": "\u003e\u003d0.83.0",
+    "minecraft": "\u003e\u003d1.20",
+    "cloth-config2": "\u003e\u003d11.0.99",
+    "java": "\u003e\u003d17",
+    "yungsapi": "\u003e\u003d1.20-Fabric-4.0.1"
+  },
+  "custom": {
+    "catalogue": {
+      "icon": {
+        "image": "catalogue_icon.png"
+      },
+      "banner": "logo.png",
+      "background": "catalogue_background.png"
+    }
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/reflections-0.10.2.jar"
+    }
+  ]
+}

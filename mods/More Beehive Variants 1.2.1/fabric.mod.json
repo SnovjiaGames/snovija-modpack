@@ -1,0 +1,43 @@
+{
+	"schemaVersion": 1,
+	"id": "quad-lolmbhv",
+	"version": "1.2.1",
+	"name": "More Beehive Variants",
+	"description": "Adding beehive variants to Minecraft",
+	"authors": [
+		"pnku, LieOnLion"
+	],
+	"contact": {
+		"homepage": "https://www.pnku.de/",
+		"sources": "https://github.com/pnk2u/More-Beehive-Variants",
+		"issues": "https://github.com/pnk2u/More-Beehive-Variants/issues"
+	},
+	"license": "MIT",
+	"icon": "logo.png",
+	"environment": "*",
+	"entrypoints": {
+		"fabric-datagen": [
+			"de.pnku.mbhv.MoreBeehiveVariantsDatagen"
+		],
+		"main": [
+			"de.pnku.mbhv.MoreBeehiveVariants"
+		]
+	},
+	"mixins": [
+		"lolmbhv.mixins.json"
+	],
+	"accessWidener": "lolmbhv.accesswidener" ,
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": ">=1.20.0",
+		"java": ">=17",
+		"fabric-api": ">=0.92.0"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.discord": "https://discord.com/invite/sA42pp6cuX"
+			}
+		}
+	}
+}

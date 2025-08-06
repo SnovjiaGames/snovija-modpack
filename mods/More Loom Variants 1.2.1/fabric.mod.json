@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "lolmlmv",
+	"version": "1.2.1",
+	"name": "More Loom Variants",
+	"description": "Adding loom variants to Minecraft",
+	"authors": [
+		"pnku, LieOnLion"
+	],
+	"contact": {
+		"homepage": "https://www.pnku.de/",
+		"email": "contact@pnku.de",
+		"sources": "https://github.com/pnk2u/More-Loom-Variants",
+		"issues": "https://github.com/pnk2u/More-Loom-Variants/issues"
+	},
+	"license": "MIT",
+	"icon": "logo.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "de.pnku.mlmv.MoreLoomVariants"
+		]
+	},
+	"mixins": [
+		"lolmlmv.mixins.json"
+	],
+	"accessWidener": "lolmlmv.accesswidener" ,
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": ">=0.92.2"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.discord": "https://discord.com/invite/sA42pp6cuX"
+			}
+		}
+	}
+}

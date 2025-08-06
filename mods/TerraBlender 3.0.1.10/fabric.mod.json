@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "terrablender",
+  "version": "3.0.1.10",
+  "name": "TerraBlender",
+  "description": "A library mod for adding biomes in a simple and compatible manner with Minecraft\u0027s new biome/terrain system.",
+  "authors": [
+    "Adubbz"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/terrablender",
+    "sources": "https://github.com/Glitchfiend/TerraBlender/"
+  },
+  "license": "LGPLv3",
+  "icon": "tb_icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "terrablender.core.TerraBlenderFabric"
+    ]
+  },
+  "mixins": [
+    "terrablender.mixins.json",
+    "terrablender_fabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": "1.20.x",
+    "java": "\u003e\u003d17"
+  },
+  "accessWidener": "terrablender.accesswidener",
+  "custom": {
+    "modmenu": {
+      "badges": [
+        "library"
+      ],
+      "links": {
+        "modmenu.discord": "https://discord.gg/GyyzU6T"
+      }
+    }
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/toml-3.6.7.jar"
+    },
+    {
+      "file": "META-INF/jars/core-3.6.7.jar"
+    }
+  ]
+}

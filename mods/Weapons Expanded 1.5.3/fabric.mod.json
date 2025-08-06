@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "weapons_expanded",
+  "version": "1.5.3",
+  "name": "Weapons Expanded",
+  "authors": [
+    "Angelic"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/weapons-expanded",
+    "sources": ""
+  },
+  "license": "All Rights Reserved",
+  "icon": "assets/weapons_expanded/icon.png",
+  "accessWidener": "weapons_expanded.accesswidener",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.weaponsexpanded.WeaponsExpandedMod"
+    ],
+    "client": [
+      "net.weaponsexpanded.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  },
+  "mixins": [
+    "weapons_expanded.mixins.json"
+  ]
+}

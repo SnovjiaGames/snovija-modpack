@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "lolmcvbop",
+	"version": "1.1.0",
+	"name": "More Chest Variants - Biomes O' Plenty",
+	"description": "Biomes O' Plenty and More Chest Variants compatibility",
+	"authors": [
+		"LieOnLion"
+	],
+	"contact": {
+		"homepage": "https://lieonlion.github.io/",
+		"sources": "https://github.com/LieOnLion/More-Chest-Variants",
+		"issues": "https://github.com/LieOnLion/More-Chest-Variants/issues"
+	},
+	"license": "MIT",
+	"icon": "logo.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.lieonlion.mcvbop.MoreChestVariantsBop"
+		],
+		"client": [
+			"io.github.lieonlion.mcvbop.client.MoreChestVariantsBopClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.7",
+		"minecraft": "~1.20",
+		"java": ">=17",
+		"fabric-api": "*",
+		"quad": ">=1.2.3",
+		"lolmcv": ">=1.5.6"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.youtube": "https://www.youtube.com/@lieonlion?sub_confirmation=1",
+				"modmenu.discord": "https://discord.com/invite/sA42pp6cuX"
+			}
+		}
+	}
+}

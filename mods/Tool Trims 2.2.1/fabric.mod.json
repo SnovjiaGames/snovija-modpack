@@ -1,0 +1,20 @@
+{
+    "schemaVersion": 1,
+    "id": "tool_trims",
+    "version": "2.2.1",
+    "name": "Tool Trims",
+    "description": "Allows you to trim weapons and tools. There are over 1200 combinations!\nResource and Data Pack packaged as a Fabric Mod for Minecraft 1.20+",
+    "authors": [
+        "JoeFly"
+    ],
+    "contact": {
+        "homepage": "https://modrinth.com/datapack/tool-trims"
+    },
+    "license": "All Rights Reserved",
+    "icon": "pack.png",
+    "environment": "*",
+    "depends": {
+        "fabric-resource-loader-v0": "*",
+        "minecraft": ">=1.20"
+    }
+}

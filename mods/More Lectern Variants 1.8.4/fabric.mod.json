@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "lolmlv",
+	"version": "1.8.4",
+	"name": "More Lectern Variants",
+	"description": "Adding lectern variants to Minecraft",
+	"authors": [
+		"pnku, LieOnLion"
+	],
+	"contact": {
+		"homepage": "https://www.pnku.de",
+		"email": "contact@pnku.de",
+		"sources": "https://github.com/pnk2u/More-Lectern-Variants",
+		"issues": "https://github.com/pnk2u/More-Lectern-Variants/issues"
+	},
+	"license": "MIT",
+	"icon": "logo.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "de.pnku.mlv.MoreLecternVariants"
+		]
+	},
+	"mixins": [
+		"lolmlv.mixins.json"
+	],
+	"accessWidener": "lolmlv.accesswidener" ,
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": ">=1.20.0 <1.21.0",
+		"java": ">=17",
+		"fabric-api": ">=0.92.0"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.discord": "https://dsc.lieonlion.dev"
+			}
+		}
+	}
+}

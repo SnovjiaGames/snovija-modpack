@@ -1,8 +1,8 @@
 {
-    "darkLoadingScreen.config.title": "Dark Loading Screen Config",
-    "darkLoadingScreen.config.entry.background": "Background Color",
-    "darkLoadingScreen.config.entry.bar": "Bar Color",
-    "darkLoadingScreen.config.entry.barBackground": "Bar Background Color",
+    "darkLoadingScreen.config.title": "Налады цёмнага экрана загрузкі",
+    "darkLoadingScreen.config.entry.background": "Колер фону",
+    "darkLoadingScreen.config.entry.bar": "Колер паласы",
+    "darkLoadingScreen.config.entry.barBackground": "Колер фону паласы",
     "darkLoadingScreen.config.entry.border": "Bar Border Color",
     "darkLoadingScreen.config.entry.logo": "Logo Color",
     "darkLoadingScreen.config.entry.fadeIn": "Fade In Duration",

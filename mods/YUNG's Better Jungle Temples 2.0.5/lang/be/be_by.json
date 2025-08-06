@@ -1,0 +1,13 @@
+{
+  "Use /locate structure betterjungletemples:jungle_temple instead!": "Выкарыстоўвайце /locate structure betterjungletemples:jungle_temple замест!",
+  "text.autoconfig.betterjungletemples-fabric-1_20.title": "YUNG's Better Jungle Temples",
+  "text.autoconfig.betterjungletemples-fabric-1_20.option.betterJungleTemples": "YUNG's Better Jungle Temples",
+  "text.autoconfig.betterjungletemples-fabric-1_20.option.betterJungleTemples.general": "Агульныя",
+  "text.autoconfig.betterjungletemples-fabric-1_20.option.betterJungleTemples.general.@Tooltip": "Агульныя наладкі",
+  "text.autoconfig.betterjungletemples-fabric-1_20.option.betterJungleTemples.compat": "Сумяшчальнасць мода",
+  "text.autoconfig.betterjungletemples-fabric-1_20.option.betterJungleTemples.compat.@Tooltip": "Наладкі сумяшчальнасці мода",
+  "text.autoconfig.betterjungletemples-fabric-1_20.option.betterJungleTemples.general.disableVanillaJungleTemples": "Выключыць ванільныя джунглевыя храмы",
+  "text.autoconfig.betterjungletemples-fabric-1_20.option.betterJungleTemples.general.disableVanillaJungleTemples.@Tooltip": "Ці варта выключыць ванільныя джунглевыя храмы.",
+  "text.autoconfig.betterjungletemples-fabric-1_20.option.betterJungleTemples.compat.pickYourPoisonEnabled": "Уключыць сумяшчальнасць з Pick Your Poison",
+  "text.autoconfig.betterjungletemples-fabric-1_20.option.betterJungleTemples.compat.pickYourPoisonEnabled.@Tooltip": "Ці варта, каб атручаныя дроцікі з'яўляліся ў палепшаных джунглевых храмах"
+}

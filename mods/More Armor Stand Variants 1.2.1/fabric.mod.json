@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "mstv-masv",
+  "version": "1.2.1",
+  "name": "More Armor Stand Variants (MStV+)",
+  "description": "This mod adds more variants of the Armor Stand.",
+  "authors": [
+    "pnku"
+  ],
+  "contact": {
+    "homepage": "https://pnku.de",
+    "email": "contact@pnku.de",
+    "sources": "https://github.com/pnk2u/More-Armor-Stand-Variants",
+    "issues": "https://github.com/pnk2u/More-Armor-Stand-Variants/issues"
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "de.pnku.mstv_masv.MoreArmorStandVariants"
+    ],
+    "client": [
+      "de.pnku.mstv_masv.MoreArmorStandVariantsClient"
+    ],
+    "fabric-datagen": [
+      "de.pnku.mstv_masv.MoreArmorStandVariantDatagen"
+    ]
+  },
+  "accessWidener": "mstv-masv.accesswidener" ,
+  "mixins": [
+    "mstv-masv.mixins.json" ,
+    {
+			"config": "mstv-masv.client.mixins.json" ,
+			"environment": "client"
+		}
+  ],
+  "depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": ">=1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+        "mstv-base": "*"
+	},
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.com/invite/sA42pp6cuX"
+      }
+    }
+  }
+}

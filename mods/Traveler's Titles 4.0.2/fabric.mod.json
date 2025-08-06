@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "travelerstitles",
+  "version": "1.20-Fabric-4.0.2",
+  "name": "Travelers Titles",
+  "description": "Эпічныя, падобныя на RPG гульні, пры ўваходзе ў вымярэнні біёмаў.",
+  "authors": [
+    "Snovija Games"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/travelers-titles-fabric",
+    "sources": "https://github.com/yungnickyoung/Travelers-Titles",
+    "issues": "https://github.com/yungnickyoung/Travelers-Titles/issues",
+    "discord": "discord.gg/rns3beq"
+  },
+  "license": "LGPLv3",
+  "icon": "icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.yungnickyoung.minecraft.travelerstitles.TravelersTitlesFabric"
+    ],
+    "modmenu": [
+      "com.yungnickyoung.minecraft.travelerstitles.config.gui.TTModMenu"
+    ]
+  },
+  "mixins": [
+    "travelerstitles.mixins.json",
+    "travelerstitles_fabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "\u003e\u003d0.14.21",
+    "fabric": "\u003e\u003d0.83.0",
+    "minecraft": "\u003e\u003d1.20",
+    "cloth-config2": "\u003e\u003d11.0.99",
+    "java": "\u003e\u003d17",
+    "yungsapi": "\u003e\u003d1.20-Fabric-4.0.1"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/reflections-0.10.2.jar"
+    }
+  ]
+}

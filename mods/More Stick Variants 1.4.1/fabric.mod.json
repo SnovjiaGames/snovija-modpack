@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "mstv-base",
+  "version": "1.4.1",
+  "name": "More Stick Variants (MStV)",
+  "description": "This mod adds more variants of the Stick Item. It is a base mod to help craft other variants using recipes with sticks as ingredients.",
+  "authors": [
+    "pnku"
+  ],
+  "contact": {
+    "homepage": "https://www.pnku.de",
+    "email": "contact@pnku.de",
+    "sources": "https://github.com/pnk2u/More-Stick-Variants",
+    "issues": "https://github.com/pnk2u/More-Stick-Variants/issues"
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "de.pnku.mstv_base.MoreStickVariants"
+    ]
+  },
+  "mixins": [
+    "mstv-base.trade.mixins.json"
+  ],
+  "depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.com/invite/sA42pp6cuX"
+      }
+    }
+  }
+}

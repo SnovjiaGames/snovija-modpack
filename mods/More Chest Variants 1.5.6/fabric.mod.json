@@ -1,0 +1,45 @@
+{
+	"schemaVersion": 1,
+	"id": "lolmcv",
+	"version": "1.5.6",
+	"name": "More Chest Variants",
+	"description": "Adding the much-needed Chest variants to Minecraft
+More types to fill your builds with colourful storage",
+	"authors": [
+		"LieOnLion"
+	],
+	"contact": {
+		"homepage": "https://lieonlion.github.io/LieOnLion/",
+		"sources": "https://github.com/LieOnLion/More-Chest-Variants",
+		"issues": "https://github.com/LieOnLion/More-Chest-Variants/issues"
+	},
+	"license": "MIT",
+	"icon": "logo.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.lieonlion.mcv.MoreChestVariants"
+		],
+		"client": [
+			"io.github.lieonlion.mcv.client.MoreChestVariantsClient"
+		]
+	},
+	"mixins": [
+		"lolmcv.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20",
+		"java": ">=17",
+		"fabric-api": "*",
+		"quad": ">=1.2.3"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.youtube": "https://www.youtube.com/@lieonlion?sub_confirmation=1",
+				"modmenu.discord": "https://discord.com/invite/sA42pp6cuX"
+			}
+		}
+	}
+}

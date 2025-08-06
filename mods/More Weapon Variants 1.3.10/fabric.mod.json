@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "mstv-mweaponv",
+  "version": "1.3.10",
+  "name": "More Weapon Variants (MStV+)",
+  "description": "This mod adds more variants for Swords, Bows, Crossbows and Arrows.",
+  "authors": [
+    "pnku"
+  ],
+  "contact": {
+    "homepage": "https://www.pnku.de",
+    "email": "contact@pnku.de",
+    "sources": "https://github.com/pnk2u/More-Weapon-Variants",
+    "issues": "https://github.com/pnk2u/More-Weapon-Variants/issues"
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "de.pnku.mstv_mweaponv.MoreWeaponVariants"
+    ],
+    "client": [
+      "de.pnku.mstv_mweaponv.MoreWeaponVariantsClient"
+    ]
+  },
+  "accessWidener": "mstv-mweaponv.accesswidener",
+  "mixins": [
+    "mstv-mweaponv.mixins.json",
+    "mstv-mweaponv.mtoolv.mixins.json",
+    {
+      "config": "mstv-mweaponv.client.mixins.json",
+      "environment": "client"
+    },
+    {
+      "config": "mstv-mweaponv.client.compat.nea.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+		"fabricloader": "~0.16.14",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+        "mstv-base": "*"
+	},
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.com/invite/sA42pp6cuX"
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "reinfchest",
+  "version": "2.4.2+1.20",
+  "name": "Reinforced Chests",
+  "description": "Adds reinforced chests.",
+  "authors": [
+    "Aton-Kish"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/reinforced-chests",
+    "sources": "https://github.com/Aton-Kish/reinforced-chests",
+    "issues": "https://github.com/Aton-Kish/reinforced-chests/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/reinfchest/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "reinfcore": [
+      "atonkish.reinfchest.ReinforcedChestsMod"
+    ],
+    "reinfcoreclient": [
+      "atonkish.reinfchest.ReinforcedChestsClientMod"
+    ],
+    "modmenu": [
+      "atonkish.reinfcore.integration.modmenu.ModMenu"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "reinfchest.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": "\u003e\u003d0.14.21",
+    "fabric-api": "*",
+    "minecraft": "~1.20",
+    "java": "\u003e\u003d17"
+  },
+  "suggests": {
+    "modmenu": "*"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/reinforced-core-3.1.2+1.20.jar"
+    }
+  ]
+}

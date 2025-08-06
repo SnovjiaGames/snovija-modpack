@@ -5,14 +5,12 @@
   "item.ad_extendra.juperium_plate": "Juperium Plate",
   "item.ad_extendra.juperium_engine": "Juperium Engine",
   "item.ad_extendra.juperium_tank": "Juperium Tank",
-
   "item.ad_extendra.raw_saturlyte": "Raw Saturlyte",
   "item.ad_extendra.saturlyte_ingot": "Saturlyte Ingot",
   "item.ad_extendra.saturlyte_nugget": "Saturlyte Nugget",
   "item.ad_extendra.saturlyte_plate": "Saturlyte Plate",
   "item.ad_extendra.saturlyte_engine": "Saturlyte Engine",
   "item.ad_extendra.saturlyte_tank": "Saturlyte Tank",
-
   "item.ad_extendra.raw_uranium": "Raw Uranium",
   "item.ad_extendra.uranium_ingot": "Uranium Ingot",
   "item.ad_extendra.uranium_nugget": "Uranium Nugget",
@@ -21,38 +19,32 @@
   "item.ad_extendra.uranium_tank": "Uranium Tank",
   "item.ad_extendra.freeze_shard": "Freeze Shard",
   "item.ad_extendra.ice_charge": "Ice Charge",
-
   "item.ad_extendra.raw_neptunium": "Raw Neptunium",
   "item.ad_extendra.neptunium_ingot": "Neptunium Ingot",
   "item.ad_extendra.neptunium_nugget": "Neptunium Nugget",
   "item.ad_extendra.neptunium_plate": "Neptunium Plate",
   "item.ad_extendra.neptunium_engine": "Neptunium Engine",
   "item.ad_extendra.neptunium_tank": "Neptunium Tank",
-
   "item.ad_extendra.raw_radium": "Raw Radium",
   "item.ad_extendra.radium_ingot": "Radium Ingot",
   "item.ad_extendra.radium_nugget": "Radium Nugget",
   "item.ad_extendra.radium_plate": "Radium Plate",
   "item.ad_extendra.radium_engine": "Radium Engine",
   "item.ad_extendra.radium_tank": "Radium Tank",
-
   "item.ad_extendra.raw_plutonium": "Raw Plutonium",
   "item.ad_extendra.plutonium_ingot": "Plutonium Ingot",
   "item.ad_extendra.plutonium_nugget": "Plutonium Nugget",
   "item.ad_extendra.plutonium_plate": "Plutonium Plate",
   "item.ad_extendra.plutonium_engine": "Plutonium Engine",
   "item.ad_extendra.plutonium_tank": "Plutonium Tank",
-
   "item.ad_extendra.raw_electrolyte": "Raw Electrolyte",
   "item.ad_extendra.electrolyte_ingot": "Electrolyte Ingot",
   "item.ad_extendra.electrolyte_nugget": "Electrolyte Nugget",
   "item.ad_extendra.electrolyte_plate": "Electrolyte Plate",
   "item.ad_extendra.electrolyte_engine": "Electrolyte Engine",
   "item.ad_extendra.electrolyte_tank": "Electrolyte Tank",
-
   "item.ad_extendra.glacian_boat": "Glacian Boat",
   "item.ad_extendra.glacian_chest_boat": "Glacian Boat with Chest",
-
   "item.ad_extendra.tier_5_rocket": "Tier 5 Rocket",
   "item.ad_extendra.tier_6_rocket": "Tier 6 Rocket",
   "item.ad_extendra.tier_7_rocket": "Tier 7 Rocket",
@@ -60,9 +52,7 @@
   "item.ad_extendra.tier_9_rocket": "Tier 9 Rocket",
   "item.ad_extendra.tier_10_rocket": "Tier 10 Rocket",
   "item.ad_extendra.tier_11_rocket": "Tier 11 Rocket",
-
   "item.ad_extendra.freeze_spawn_egg": "Freeze Spawn Egg",
-
   "block.ad_extendra.moon_mycelium": "Moon Mycelium",
   "block.ad_extendra.aeronos_mushroom": "Aeronos Mushroom",
   "block.ad_extendra.potted_aeronos_mushroom": "Potted Aeronos Mushroom",
@@ -80,7 +70,6 @@
   "block.ad_extendra.strophar_wall_sign": "Strophar Wall Sign",
   "block.ad_extendra.strophar_hanging_sign": "Strophar Hanging Sign",
   "block.ad_extendra.strophar_wall_hanging_sign": "Strophar Wall Hanging Sign",
-
   "block.ad_extendra.juperium_block": "Block of Juperium",
   "block.ad_extendra.raw_juperium_block": "Block of Raw Juperium",
   "block.ad_extendra.juperium_factory_block": "Juperium Factory Block",
@@ -118,7 +107,6 @@
   "block.ad_extendra.polished_jupiter_stone_stairs": "Polished Jupiter Stone Stairs",
   "block.ad_extendra.polished_jupiter_stone_slab": "Polished Jupiter Stone Slab",
   "block.ad_extendra.jupiter_pillar": "Jupiter Pillar",
-  
   "block.ad_extendra.ceres_copper_ore": "Ceres Copper Ore",
   "block.ad_extendra.ceres_iron_ore": "Ceres Iron Ore",
   "block.ad_extendra.ceres_sand": "Ceres Sand",
@@ -140,7 +128,6 @@
   "block.ad_extendra.polished_ceres_stone_stairs": "Polished Ceres Stone Stairs",
   "block.ad_extendra.polished_ceres_stone_slab": "Polished Ceres Stone Slab",
   "block.ad_extendra.ceres_pillar": "Ceres Pillar",
-
   "block.ad_extendra.saturlyte_block": "Block of Saturlyte",
   "block.ad_extendra.raw_saturlyte_block": "Block of Raw Saturlyte",
   "block.ad_extendra.saturlyte_factory_block": "Saturlyte Factory Block",
@@ -179,7 +166,6 @@
   "block.ad_extendra.polished_saturn_stone_stairs": "Polished Saturn Stone Stairs",
   "block.ad_extendra.polished_saturn_stone_slab": "Polished Saturn Stone Slab",
   "block.ad_extendra.saturn_pillar": "Saturn Pillar",
-
   "block.ad_extendra.uranium_block": "Block of Uranium",
   "block.ad_extendra.raw_uranium_block": "Block of Raw Uranium",
   "block.ad_extendra.uranium_factory_block": "Uranium Factory Block",
@@ -220,7 +206,6 @@
   "block.ad_extendra.slushy_ice": "Slushy Ice",
   "block.ad_extendra.packed_slushy_ice": "Packed Slushy Ice",
   "block.ad_extendra.icicle": "Icicle",
-
   "block.ad_extendra.neptunium_block": "Block of Neptunium",
   "block.ad_extendra.raw_neptunium_block": "Block of Raw Neptunium",
   "block.ad_extendra.neptunium_factory_block": "Neptunium Factory Block",
@@ -259,7 +244,6 @@
   "block.ad_extendra.polished_neptune_stone_slab": "Polished Neptune Stone Slab",
   "block.ad_extendra.neptune_pillar": "Neptune Pillar",
   "block.ad_extendra.blue_slushy_ice": "Blue Slushy Ice",
-
   "block.ad_extendra.radium_block": "Block of Radium",
   "block.ad_extendra.raw_radium_block": "Block of Raw Radium",
   "block.ad_extendra.radium_factory_block": "Radium Factory Block",
@@ -295,7 +279,6 @@
   "block.ad_extendra.polished_orcus_stone_stairs": "Polished Orcus Stone Stairs",
   "block.ad_extendra.polished_orcus_stone_slab": "Polished Orcus Stone Slab",
   "block.ad_extendra.orcus_pillar": "Orcus Pillar",
-
   "block.ad_extendra.plutonium_block": "Block of Plutonium",
   "block.ad_extendra.raw_plutonium_block": "Block of Raw Plutonium",
   "block.ad_extendra.plutonium_factory_block": "Plutonium Factory Block",
@@ -333,7 +316,6 @@
   "block.ad_extendra.polished_pluto_stone_stairs": "Polished Pluto Stone Stairs",
   "block.ad_extendra.polished_pluto_stone_slab": "Polished Pluto Stone Slab",
   "block.ad_extendra.pluto_pillar": "Pluto Pillar",
-
   "block.ad_extendra.haumea_copper_ore": "Haumea Copper Ore",
   "block.ad_extendra.haumea_iron_ore": "Haumea Iron Ore",
   "block.ad_extendra.haumea_stone": "Haumea Stone",
@@ -354,7 +336,6 @@
   "block.ad_extendra.polished_haumea_stone_stairs": "Polished Haumea Stone Stairs",
   "block.ad_extendra.polished_haumea_stone_slab": "Polished Haumea Stone Slab",
   "block.ad_extendra.haumea_pillar": "Haumea Pillar",
-
   "block.ad_extendra.quaoar_copper_ore": "Quaoar Copper Ore",
   "block.ad_extendra.quaoar_iron_ore": "Quaoar Iron Ore",
   "block.ad_extendra.quaoar_stone": "Quaoar Stone",
@@ -375,7 +356,6 @@
   "block.ad_extendra.polished_quaoar_stone_stairs": "Polished Quaoar Stone Stairs",
   "block.ad_extendra.polished_quaoar_stone_slab": "Polished Quaoar Stone Slab",
   "block.ad_extendra.quaoar_pillar": "Quaoar Pillar",
-
   "block.ad_extendra.makemake_copper_ore": "Makemake Copper Ore",
   "block.ad_extendra.makemake_iron_ore": "Makemake Iron Ore",
   "block.ad_extendra.makemake_stone": "Makemake Stone",
@@ -396,7 +376,6 @@
   "block.ad_extendra.polished_makemake_stone_stairs": "Polished Makemake Stone Stairs",
   "block.ad_extendra.polished_makemake_stone_slab": "Polished Makemake Stone Slab",
   "block.ad_extendra.makemake_pillar": "Makemake Pillar",
-
   "block.ad_extendra.gonggong_copper_ore": "Gonggong Copper Ore",
   "block.ad_extendra.gonggong_iron_ore": "Gonggong Iron Ore",
   "block.ad_extendra.gonggong_stone": "Gonggong Stone",
@@ -417,7 +396,6 @@
   "block.ad_extendra.polished_gonggong_stone_stairs": "Polished Gonggong Stone Stairs",
   "block.ad_extendra.polished_gonggong_stone_slab": "Polished Gonggong Stone Slab",
   "block.ad_extendra.gonggong_pillar": "Gonggong Pillar",
-
   "block.ad_extendra.eris_copper_ore": "Eris Copper Ore",
   "block.ad_extendra.eris_iron_ore": "Eris Iron Ore",
   "block.ad_extendra.eris_stone": "Eris Stone",
@@ -438,7 +416,6 @@
   "block.ad_extendra.polished_eris_stone_stairs": "Polished Eris Stone Stairs",
   "block.ad_extendra.polished_eris_stone_slab": "Polished Eris Stone Slab",
   "block.ad_extendra.eris_pillar": "Eris Pillar",
-
   "block.ad_extendra.electrolyte_block": "Block of Electrolyte",
   "block.ad_extendra.raw_electrolyte_block": "Block of Raw Electrolyte",
   "block.ad_extendra.electrolyte_factory_block": "Electrolyte Factory Block",
@@ -474,7 +451,6 @@
   "block.ad_extendra.polished_sedna_stone_stairs": "Polished Sedna Stone Stairs",
   "block.ad_extendra.polished_sedna_stone_slab": "Polished Sedna Stone Slab",
   "block.ad_extendra.sedna_pillar": "Sedna Pillar",
-
   "block.ad_extendra.b_diamond_ore": "Proxima Centauri b Diamond Ore",
   "block.ad_extendra.b_emerald_ore": "Proxima Centauri b Emerald Ore",
   "block.ad_extendra.b_iron_ore": "Proxima Centauri b Iron Ore",
@@ -503,7 +479,6 @@
   "block.ad_extendra.polished_b_stone_stairs": "Polished Proxima Centauri b Stone Stairs",
   "block.ad_extendra.polished_b_stone_slab": "Polished Proxima Centauri b Stone Slab",
   "block.ad_extendra.b_pillar": "Proxima Centauri b Pillar",
-
   "block.ad_extendra.glacian_wood": "Glacian Wood",
   "block.ad_extendra.stripped_glacian_wood": "Stripped Glacian Wood",
   "block.ad_extendra.glacian_sapling": "Glacian Sapling",
@@ -512,7 +487,6 @@
   "block.ad_extendra.glacian_wall_sign": "Glacian Wall Sign",
   "block.ad_extendra.glacian_hanging_sign": "Glacian Hanging Sign",
   "block.ad_extendra.glacian_wall_hanging_sign": "Glacian Wall Hanging Sign",
-
   "block.ad_extendra.ceres_globe": "Ceres Globe",
   "block.ad_extendra.jupiter_globe": "Jupiter Globe",
   "block.ad_extendra.saturn_globe": "Saturn Globe",
@@ -527,12 +501,10 @@
   "block.ad_extendra.eris_globe": "Eris Globe",
   "block.ad_extendra.sedna_globe": "Sedna Globe",
   "block.ad_extendra.b_globe": "Proxima Centauri b Globe",
-
   "entity.ad_extendra.freeze": "Freeze",
   "entity.ad_extendra.ice_charge": "Ice Charge",
   "entity.ad_extendra.boat": "Boat",
   "entity.ad_extendra.chest_boat": "Boat with Chest",
-
   "entity.ad_extendra.tier_5_rocket": "Tier 5 Rocket",
   "entity.ad_extendra.tier_6_rocket": "Tier 6 Rocket",
   "entity.ad_extendra.tier_7_rocket": "Tier 7 Rocket",
@@ -540,9 +512,7 @@
   "entity.ad_extendra.tier_9_rocket": "Tier 9 Rocket",
   "entity.ad_extendra.tier_10_rocket": "Tier 10 Rocket",
   "entity.ad_extendra.tier_11_rocket": "Tier 11 Rocket",
-
   "itemGroup.ad_extendra.main": "Ad Extendra",
-
   "advancements.ad_extendra.all_planets.title": "The Ultimate Astronomer!",
   "advancements.ad_extendra.all_planets.description": "Land on all the planets",
   "advancements.ad_extendra.ceres.title": "The Asteroid Belt",
@@ -589,7 +559,6 @@
   "advancements.ad_extendra.tier_11_rocket.description": "Construct a Tier 11 Rocket",
   "advancements.ad_extendra.challenger.title": "Challenger",
   "advancements.ad_extendra.challenger.description": "Collect every globe",
-
   "painting.ad_extendra.ceres.title": "Ceres",
   "painting.ad_extendra.ceres.author": "Daniel Dixon",
   "painting.ad_extendra.orcus.title": "Orcus",
@@ -608,7 +577,6 @@
   "painting.ad_extendra.sedna.author": "Daniel Dixon",
   "painting.ad_extendra.b.title": "Alpha Centauri Ab",
   "painting.ad_extendra.b.author": "Daniel Dixon",
-  
   "biome.ad_extendra.intriguing_wastelands": "Intriguing Wastelands",
   "biome.ad_extendra.cosmic_gaslands": "Cosmic Gaslands",
   "biome.ad_extendra.cronian_gaslands": "Cronian Gaslands",
@@ -624,7 +592,6 @@
   "biome.ad_extendra.sednian_barrens": "Sednian Barrens",
   "biome.ad_extendra.centaurian_plains": "Centaurian Plains",
   "biome.ad_extendra.centaurian_beach": "Centaurian Beach",
-
   "planet.ad_extendra.b": "Proxima Centauri b",
   "planet.ad_extendra.ceres": "Ceres",
   "planet.ad_extendra.eris": "Eris",
@@ -639,7 +606,6 @@
   "planet.ad_extendra.saturn": "Saturn",
   "planet.ad_extendra.sedna": "Sedna",
   "planet.ad_extendra.uranus": "Uranus",
-
   "planet.ad_extendra.b_orbit": "Proxima Centauri b Orbit",
   "planet.ad_extendra.ceres_orbit": "Ceres Orbit",
   "planet.ad_extendra.eris_orbit": "Eris Orbit",

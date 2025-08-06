@@ -1,8 +1,10 @@
 {
   "display": {
-    "icon": {"item": "bedrockplus:impure_bedrock_scrap"},
-    "title": "Get a bedrock impure scrap",
-    "description": "Smelt a impure bedrock",
+    "icon": {
+      "item": "bedrockplus:impure_bedrock_scrap"
+    },
+    "title": "Атрымайце абломак нячыстай карэннай пароды",
+    "description": "Пераплаўце нячыстую карэнную пароду",
     "frame": "task",
     "show_toast": true,
     "annouce_to_chat": true

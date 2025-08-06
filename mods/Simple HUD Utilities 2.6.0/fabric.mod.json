@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "simple_utilities",
+  "version": "2.6.0",
+  "name": "Simple HUD Utilities",
+  "description": "Adds simple utilities like extra simplified info on HUD",
+  "authors": [
+    "johnvictorfs"
+  ],
+  "contributors": [
+    "trinity-1686a",
+    "ColdIce1605",
+    "mkolakovsky",
+    "rogama25",
+    "SpencerBurgess",
+    "SoRadGaming"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/simple-utilities",
+    "sources": "https://github.com/johnvictorfs/simple-utilities-mod",
+    "issues": "https://github.com/johnvictorfs/simple-utilities-mod/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/simple_utilities/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.johnvictorfs.simple_utilities.SimpleUtilities"
+    ],
+    "modmenu": [
+      "net.johnvictorfs.simple_utilities.config.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "simple_utilities.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "\u003e\u003d0.14.22",
+    "fabric": "*",
+    "minecraft": "\u003e\u003d1.20.1"
+  },
+  "suggests": {
+    "modmenu": "\u003e\u003d4.0.0"
+  },
+  "custom": {
+    "modmanager": {
+      "curseforge": 356722,
+      "modrinth": "Mn86JBmJ"
+    }
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/cloth-config-fabric-11.0.98.jar"
+    }
+  ]
+}

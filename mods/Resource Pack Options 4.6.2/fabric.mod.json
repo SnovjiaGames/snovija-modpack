@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "respackopts",
+  "name": "Resource Pack Options",
+  "version": "4.6.2",
+  "description": "Config menus for resource packs",
+  "authors": [
+    "JFronny"
+  ],
+  "contact": {
+    "email": "projects.contact@frohnmeyer-wds.de",
+    "homepage": "https://jfronny.gitlab.io",
+    "issues": "https://git.frohnmeyer-wds.de/JfMods/Respackopts/issues",
+    "sources": "https://git.frohnmeyer-wds.de/JfMods/Respackopts"
+  },
+  "license": "MIT",
+  "icon": "assets/respackopts/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.gitlab.jfronny.respackopts.Respackopts"
+    ],
+    "client": [
+      "io.gitlab.jfronny.respackopts.RespackoptsClient"
+    ],
+    "frex": [
+      "io.gitlab.jfronny.respackopts.integration.FrexCompat"
+    ],
+    "respackopts:save_hook": [
+      "io.gitlab.jfronny.respackopts.Respackopts"
+    ],
+    "respackopts:client_save_hook": [
+      "io.gitlab.jfronny.respackopts.RespackoptsClient"
+    ],
+    "libjf:config": [
+      "io.gitlab.jfronny.respackopts.RespackoptsConfig"
+    ],
+    "modmenu": [
+      "io.gitlab.jfronny.respackopts.integration.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "respackopts.mixins.json",
+    {
+      "config": "respackopts.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": "\u003e\u003d0.12.0",
+    "fabric-api": "*",
+    "minecraft": "*",
+    "libjf-base": "\u003e\u003d3.0.0",
+    "libjf-data-manipulation-v0": "\u003e\u003d3.0.0",
+    "libjf-config-core-v1": "\u003e\u003d3.0.0"
+  },
+  "conflicts": {
+    "libjf": "\u003c3.0.0"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/muscript-1.4-SNAPSHOT.jar"
+    }
+  ]
+}

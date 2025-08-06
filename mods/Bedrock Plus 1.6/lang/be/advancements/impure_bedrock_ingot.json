@@ -1,8 +1,10 @@
 {
   "display": {
-    "icon": {"item": "bedrockplus:impure_bedrock_ingot"},
-    "title": "A very hard mineral",
-    "description": "Craft a bedrock impure ingot",
+    "icon": {
+      "item": "bedrockplus:impure_bedrock_ingot"
+    },
+    "title": "Вельмі цвёрды мінерал",
+    "description": "Стварыце злітак нячыстай карэннай пароды",
     "frame": "task",
     "show_toast": true,
     "annouce_to_chat": true
@@ -14,7 +16,7 @@
       "conditions": {
         "items": [
           {
-            "items":[
+            "items": [
               "bedrockplus:impure_bedrock_ingot"
             ]
           }

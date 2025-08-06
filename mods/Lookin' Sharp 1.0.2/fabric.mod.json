@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "lookinsharp",
+  "version": "1.0.2",
+  "name": "Lookin\u0027 Sharp!",
+  "description": "",
+  "authors": [
+    "Joosh",
+    "CodexAdrian"
+  ],
+  "contributors": [],
+  "contact": {
+    "website": "https://www.curseforge.com/minecraft/mc-mods/lookin-sharp",
+    "repo": "https://github.com/terrarium-earth/lookin-sharp",
+    "issues": "https://github.com/terrarium-earth/lookin-sharp/issues"
+  },
+  "license": "Terrarium Licence",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "earth.terrarium.lookinsharp.fabric.LookinSharpFabric",
+      "earth.terrarium.lookinsharp.LookinSharp::postInit"
+    ],
+    "client": [
+      "earth.terrarium.lookinsharp.client.fabric.LookinSharpClientFabric"
+    ],
+    "jei_mod_plugin": [
+      "earth.terrarium.lookinsharp.compat.jei.JEIPlugin"
+    ],
+    "rei_client": [
+      "earth.terrarium.lookinsharp.compat.rei.REIPlugin"
+    ]
+  },
+  "mixins": [
+    "lookinsharp.mixins.json",
+    "lookinsharp-common.mixins.json"
+  ],
+  "depends": {
+    "fabric": "*",
+    "minecraft": "\u003e\u003d1.20.1",
+    "resourcefullib": "\u003e\u003d2.1.3"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/reach-entity-attributes-2.4.1.jar"
+    }
+  ]
+}

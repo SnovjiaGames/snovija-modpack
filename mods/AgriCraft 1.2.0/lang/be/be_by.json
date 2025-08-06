@@ -1,0 +1,10 @@
+{
+	"screen.uncrafter.uncrafter_inventory": "Татшрав",
+	"screen.uncrafter.advanced_uncrafter_inventory": "Advanced Uncrafter",
+	"block.uncrafter.uncrafter": "Uncrafter",
+	"block.uncrafter.advanced_uncrafter": "Advanced Uncrafter",
+	"uncrafter.config.extract_amount": "Uncrafter extract amount",
+	"uncrafter.config.advanced_extract_amount": "Advanced uncrafter extract amount",
+	"uncrafter.config.enchantment_extract_amount": "Enchantment extract amount",
+	"uncrafter.config.minimum_level_for_enchantments": "Minimum level for enchantments"
+}

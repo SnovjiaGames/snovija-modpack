@@ -1,8 +1,10 @@
 {
   "display": {
-    "icon": {"item": "bedrockplus:impurebedrock_sword"},
-    "title": "Powerful Tools",
-    "description": "Craft all the impure bedrock tools",
+    "icon": {
+      "item": "bedrockplus:impurebedrock_sword"
+    },
+    "title": "Моцныя інструменты",
+    "description": "Стварыце ўсё інструменты з нячыстай карэннай пароды",
     "frame": "challenge",
     "show_toast": true,
     "annouce_to_chat": true

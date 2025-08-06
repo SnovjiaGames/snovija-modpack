@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "nemos-moreladdervariants",
+  "version": "1.0.3",
+  "name": "Nemo's More Ladder Variants (MStV)",
+  "description": "This mod adds the variants of the Ladder item from the mod <Nemo's Carpentry> as a standalone mod.",
+  "authors": [
+    "NemoNotFound",
+	"pnku"
+  ],
+  "contact": {
+    "homepage": "https://pnku.de",
+    "email": "contact@pnku.de",
+    "sources": "https://github.com/pnk2u/Nemos-More-Ladder-Variants",
+    "issues": "https://github.com/pnk2u/Nemos-More-Ladder-Variants/issues"
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "de.pnku.nemosmoreladdervariants.NemosMoreLadderVariants"
+    ],
+    "client": [
+      "de.pnku.nemosmoreladdervariants.NemosMoreLadderVariantsClient"
+    ]
+  },
+  "depends": {
+		"fabricloader": "~0.16.5",
+		"minecraft": [">=1.20.1 <1.20.4"],
+		"java": ">=17",
+		"fabric-api": "*",
+		"mstv-base": ">=1.1.2"
+	},
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.com/invite/yxs9dga"
+      }
+    }
+  }
+}

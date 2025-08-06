@@ -1,0 +1,20 @@
+{
+ "betterstrongholds.commands.locate.stronghold": "Выкарыстоўвайце /locate structure betterstrongholds:stronghold замест!",
+ "Use /locate structure betterstrongholds:stronghold instead!": "Выкарыстоўвайце /locate structure betterstrongholds:stronghold замест!",
+ "text.autoconfig.betterstrongholds-fabric-1_20.title": "YUNG's Better Strongholds",
+ "text.autoconfig.betterstrongholds-fabric-1_20.option.betterStrongholds": "YUNG's Better Strongholds",
+ "text.autoconfig.betterstrongholds-fabric-1_20.option.betterStrongholds.general": "Агульныя наладкі",
+ "text.autoconfig.betterstrongholds-fabric-1_20.option.betterStrongholds.general.@Tooltip": "Агульныя наладкі.",
+ "text.autoconfig.betterstrongholds-fabric-1_20.option.betterStrongholds.general.cobwebReplacementChanceNormal": "Частата з'яўлення павуціння (ЗВЫЧАЙНАЯ)",
+ "text.autoconfig.betterstrongholds-fabric-1_20.option.betterStrongholds.general.cobwebReplacementChanceNormal.@Tooltip[0]": "Частата, з якой будзе з'яўляцца павуцінне ў розных частках крэпасці",
+ "text.autoconfig.betterstrongholds-fabric-1_20.option.betterStrongholds.general.cobwebReplacementChanceNormal.@Tooltip[1]": "Па змаўчанні: 0.1",
+ "text.autoconfig.betterstrongholds-fabric-1_20.option.betterStrongholds.general.cobwebReplacementChanceSpawner": "Частата з'яўлення павуціння (РАССАДНІК)",
+ "text.autoconfig.betterstrongholds-fabric-1_20.option.betterStrongholds.general.cobwebReplacementChanceSpawner.@Tooltip[0]": "Частата, з якой будзе з'яўляцца павуцінне вакол рассаднікаў павукоў у бібліятэках.",
+ "text.autoconfig.betterstrongholds-fabric-1_20.option.betterStrongholds.general.cobwebReplacementChanceSpawner.@Tooltip[1]": "Па змаўчанні: 0.3",
+ "text.autoconfig.betterstrongholds-fabric-1_20.option.betterStrongholds.general.torchSpawnRate": "Частата з'яўлення факелаў",
+ "text.autoconfig.betterstrongholds-fabric-1_20.option.betterStrongholds.general.torchSpawnRate.@Tooltip[0]": "Частата, з якой будуць з'яўляцца факелы ў розных частках крэпасці",
+ "text.autoconfig.betterstrongholds-fabric-1_20.option.betterStrongholds.general.torchSpawnRate.@Tooltip[1]": "Па змаўчанні: 0.1",
+ "text.autoconfig.betterstrongholds-fabric-1_20.option.betterStrongholds.general.lanternSpawnRate": "Частата з'яўлення ліхтароў",
+ "text.autoconfig.betterstrongholds-fabric-1_20.option.betterStrongholds.general.lanternSpawnRate.@Tooltip[0]": "Частата, з якой будуць з'яўляцца ліхтары ў розных частках крэпасці",
+ "text.autoconfig.betterstrongholds-fabric-1_20.option.betterStrongholds.general.lanternSpawnRate.@Tooltip[1]": "Па змаўчанні: 0.2"
+}
