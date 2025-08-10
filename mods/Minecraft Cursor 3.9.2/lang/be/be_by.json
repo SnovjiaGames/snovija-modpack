@@ -1,6 +1,6 @@
 {
   "modmenu.descriptionTranslation.minecraft-cursor": "Configurable cursor for Minecraft.",
-  "minecraft-cursor.options": "Cursor Settings",
+  "minecraft-cursor.options": "Налады",
   "minecraft-cursor.options.enabled": "Enabled",
   "minecraft-cursor.options.scale": "Scale",
   "minecraft-cursor.options.scale.gui": "Use GUI Scale",
@@ -12,9 +12,9 @@
   "minecraft-cursor.options.animate-reset": "Restart Animation",
   "minecraft-cursor.options.reset-defaults": "Reset to Defaults",
   "minecraft-cursor.options.preview": "Preview",
-  "minecraft-cursor.options.search": "Search",
+  "minecraft-cursor.options.search": "Пошук",
   "minecraft-cursor.options.search.clear": "Clear Search",
-  "minecraft-cursor.options.cursor-types": "Cursors",
+  "minecraft-cursor.options.cursor-types": "Курсоры",
   "minecraft-cursor.options.cursor-type": "%1$s Cursor",
   "minecraft-cursor.options.cursor-type.default": "Default",
   "minecraft-cursor.options.cursor-type.pointer": "Pointer",
@@ -62,6 +62,6 @@
   "minecraft-cursor.options.debug": "Debug",
   "minecraft-cursor.options.debug.inspect": "Inspect Element",
   "minecraft-cursor.options.debug.cache.clear": "Clear Cache: %1$s",
-  "minecraft-cursor.options.debug.report_issues": "Report Issues",
+  "minecraft-cursor.options.debug.report_issues": "Памылкі",
   "minecraft-cursor.options.debug.open_wiki": "Open Wiki"
 }
